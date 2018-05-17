@@ -57,7 +57,7 @@ Note:
 @title[UEFI Shell Overview Section]
 <br><br><br><br><br>
 ### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Aware OS Requirements</span>
-<span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Common Requirements</span>
+<span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Common Requirements</span>
  
 ---?image=/assets/images/slides/Slide4.JPG
 @title[UEFI Operating Systems]
@@ -324,21 +324,13 @@ Note:
 
 ---
 @title[UEFI OS Loader/Installer]
-<br>
 #### <p align="right"><span class="gold" >UEFI OS Loader</span></p>
 @fa[circle gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;OS install process includes UEFI loader<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:0.7em"><font face="Courier New" color="#FFFF00">/efi/boot/bootx64.efi    /efi/redhat/grub.efi</font></span><br>
 @fa[circle gp-bullet-gold]<span style="font-size:0.9em">&nbsp;&nbsp;Call UEFI boot & runtime services to start OS</span> <br>
 @fa[circle gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Exit UEFI Boot Services</span><br>
 @fa[circle gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Transfer control to native OS</span><br>
-
-
-+++
-@title[UEFI OS Loader/Installer]
-<br>
 #### <p align="right"><span class="gold" >UEFI OS Installer</span></p>
-<br>
-
 @fa[circle gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Discover UEFI storage devices</span> <br>
 @fa[circle gp-bullet-gold]<span style="font-size:0.9em">&nbsp;&nbsp;Setup storage device: GPT w/ FAT32 boot partition</span> <br>
 @fa[circle gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Create boot variable &nbsp;&nbsp;<font face="Courier New" color="#FFFF00">BootXXXX</fon></span><br>
