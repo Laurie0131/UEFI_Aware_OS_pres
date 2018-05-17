@@ -56,7 +56,7 @@ Note:
 ---?image=assets/images/binary-strings-black2.jpg
 @title[UEFI Shell Overview Section]
 <br><br><br><br><br>
-## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Aware OS Requirements</span>
+### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Aware OS Requirements</span>
 <span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Common Requirements</span>
  
 ---?image=/assets/images/slides/Slide4.JPG
@@ -188,7 +188,7 @@ Note:
 ---?image=/assets/images/slides/Slide18.JPG
 <!-- .slide: data-transition="none" -->
 @title[UEFI System Classes ]
-<p align="right"><span class="gold" >UEFI System Classes</span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
+<p align="right"><span style="font-size:01.6em" ><font color="#e49436">UEFI System Classes&nbsp;&nbsp;</span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
 
 Note:
 Make sure the “class” terminology is understood here before moving on
@@ -212,7 +212,7 @@ Make sure the “class” terminology is understood here before moving on
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI System Classes 02]
-<p align="right"><span class="gold" >UEFI System Classes</span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
+<p align="right"><span style="font-size:01.6em" ><font color="#e49436">UEFI System Classes&nbsp;&nbsp;</span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
 
 
 Note:
@@ -222,7 +222,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI System Classes 03]
-<p align="right"><span class="gold" >UEFI System Classes</span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
+<p align="right"><span style="font-size:01.6em" ><font color="#e49436">UEFI System Classes&nbsp;&nbsp;</span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
 
 
 Note:
@@ -231,7 +231,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI System Classes 04]
-<p align="right"><span class="gold" >UEFI System Classes</span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
+<p align="right"><span style="font-size:01.6em" ><font color="#e49436">UEFI System Classes&nbsp;&nbsp;</span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
 
 
 Note:
@@ -241,7 +241,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI System Classes 05]
-<p align="right"><span class="gold" >UEFI System Classes</span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
+<p align="right"><span style="font-size:01.6em" ><font color="#e49436">UEFI System Classes&nbsp;&nbsp;</span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
 
 
 Note:
@@ -251,7 +251,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI System Classes 06]
-<p align="right"><span class="gold" >UEFI System Classes</span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
+<p align="right"><span style="font-size:01.6em" ><font color="#e49436">UEFI System Classes&nbsp;&nbsp;</span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
 
 
 Note:
@@ -260,7 +260,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI System Classes 07]
-<p align="right"><span class="gold" >UEFI System Classes</span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
+<p align="right"><span style="font-size:01.6em" ><font color="#e49436">UEFI System Classes&nbsp;&nbsp;</span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
 
 
 Note:
@@ -281,7 +281,7 @@ Make sure the “class” terminology is understood here before moving on
 ---?image=/assets/images/slides/Slide27.JPG
 <!-- .slide: data-transition="none" -->
 @title[Required UEFI Drivers: OS Install & Boot]
-<p align="right"><span class="gold" >Required UEFI Drivers:</span><span style="font-size:0.9em" ><font color="#FFC000">OS Install & Boot<font></span></p>
+<p align="right"><span style="font-size:01.6em" ><font color="#e49436">Required UEFI Drivers:&nbsp;&nbsp;</span><span style="font-size:0.6em" ><font color="#FFC000">OS Install & Boot<font></span></p>
 
 Note:
 - Boot Device: hard drive controller, USB, RAID, Fiber Channel, network, etc. 
@@ -295,7 +295,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Required UEFI Drivers: OS Install & Boot 02]
-<p align="right"><span class="gold" >Required UEFI Drivers:</span><span style="font-size:0.9em" ><font color="#FFC000">OS Install & Boot<font></span></p>
+<p align="right"><span style="font-size:01.6em" ><font color="#e49436">Required UEFI Drivers:&nbsp;&nbsp;</span><span style="font-size:0.6em" ><font color="#FFC000">OS Install & Boot<font></span></p>
 
 Note:
 
@@ -304,7 +304,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Required UEFI Drivers: OS Install & Boot 03]
-<p align="right"><span class="gold" >Required UEFI Drivers:</span><span style="font-size:0.9em" ><font color="#FFC000">OS Install & Boot<font></span></p>
+<p align="right"><span style="font-size:01.6em" ><font color="#e49436">Required UEFI Drivers:&nbsp;&nbsp;</span><span style="font-size:0.6em" ><font color="#FFC000">OS Install & Boot<font></span></p>
 
 Note:
 
@@ -313,7 +313,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Required UEFI Drivers: OS Install & Boot 04]
-<p align="right"><span class="gold" >Required UEFI Drivers:</span><span style="font-size:0.9em" ><font color="#FFC000">OS Install & Boot<font></span></p>
+<p align="right"><span style="font-size:01.6em" ><font color="#e49436">Required UEFI Drivers:&nbsp;&nbsp;</span><span style="font-size:0.6em" ><font color="#FFC000">OS Install & Boot<font></span></p>
 
 Note:
 - Boot Device: hard drive controller, USB, RAID, Fiber Channel, network, etc. 
@@ -326,7 +326,7 @@ Note:
 @title[UEFI OS Loader/Installer]
 <p align="right"><span class="gold" >UEFI OS Loader</span></p>
  @fa[circle gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;OS install process includes UEFI loader<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="Courier New" color="#FFFF00">/efi/boot/bootx64.efi    /efi/redhat/grub.efi</fon></span> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="Courier New" color="#FFFF00">/efi/boot/bootx64.efi    /efi/redhat/grub.efi</font></span> <br>
  @fa[circle gp-bullet-gold]<span style="font-size:0.9em">&nbsp;&nbsp;Call UEFI boot & runtime services to start OS</span> <br>
  @fa[circle gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Exit UEFI Boot Services</span><br>
  @fa[circle gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Exit UEFI Boot Services</span><br>
