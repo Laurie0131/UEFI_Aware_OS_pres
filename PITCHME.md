@@ -414,7 +414,7 @@ Os loader needs to be here
 <br>
 <br>
 <br>
-<br>s
+<br>
 <span style="font-size:0.5em" >Resources: https://firmwaresecurity.com/2015/07/29/survey-of-boot-security-technologies/ </span>
 
 Note:
@@ -624,7 +624,7 @@ Unuthorized Signing certificates - Black list
 <p align="right"><span class="gold" >Security Package Project Page</span><span style="font-size:0.8em" ><a href="https://github.com/tianocore/tianocore.github.io/wiki/SecurityPkg 
 "> Wiki Link</a></span></p>
 <br>
-<div class="left">
+<div class="left1">
      <ul>
         <li><span style="font-size:0.8em" >Wiki Link: <a href="https://github.com/tianocore/tianocore.github.io/wiki/How-to-Enable-Security#HOW_TO_ENABLE_SECURE_BOOT_SERVICE">How-to-Enable-Security</a></span></span></li>
         <li><span style="font-size:0.8em" >PDF <a href="https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.pdf">How to Sign UEFI Images V1.31</a></span></span></li>
@@ -632,8 +632,8 @@ Unuthorized Signing certificates - Black list
         <li><span style="font-size:0.8em" >Install the `CryptoPkg OpensslLib` : <a href="https://github.com/tianocore/edk2/blob/master/CryptoPkg/Library/OpensslLib/OpenSSL-HOWTO.txt">OpenSSL-HOWTO.txt</a></span></li>
      </ul>
 </div>
-<div class="right">
-   <span style="font-size:01.5em" ><font color="yellow"><b>How To Enable Secure Boot Service</b></font></span>
+<div class="right1">
+   <span style="font-size:01.2em" ><font color="yellow"><b>How To Enable Secure Boot Service</b></font></span>
 </div>
 
 Note:
@@ -645,7 +645,7 @@ Note:
 <p align="right"><span class="gold" >Security Package Project Page</span><span style="font-size:0.8em" ><a href="https://github.com/tianocore/tianocore.github.io/wiki/SecurityPkg 
 "> Wiki Link</a></span></p>
 <br>
-<div class="left">
+<div class="left1">
      <ul>
         <li><span style="font-size:0.8em" >Wiki Link: <a href="https://github.com/tianocore/tianocore.github.io/wiki/How-to-Enable-Security#HOW_TO_ENABLE_SECURE_BOOT_SERVICE">How-to-Enable-Security</a></span></span></li>
         <li><span style="font-size:0.8em" >PDF <a href="https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.pdf">How to Sign UEFI Images V1.31</a></span></span></li>
@@ -653,7 +653,7 @@ Note:
         <li><span style="font-size:0.8em" >Install the `CryptoPkg OpensslLib` : <a href="https://github.com/tianocore/edk2/blob/master/CryptoPkg/Library/OpensslLib/OpenSSL-HOWTO.txt">OpenSSL-HOWTO.txt</a></span></li>
      </ul>
 </div>
-<div class="right">
+<div class="right1">
    <span style="font-size:01.5em" ><font color="yellow"><b>      </b></font></span>
 </div>
 
