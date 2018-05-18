@@ -875,13 +875,16 @@ same as Slide
 ---
 @title[UEFI Platform Firmware Assumptions ]
 <p align="right"><span class="gold" >UEFI Platform Firmware Assumptions </span></p>
-@fa[circle gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Memory protected by the OS cannot be snooped while<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in use by the OS application or OS driver</span>
+ @fa[circle gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Memory protected by the OS cannot be snooped while<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in use by the OS application or OS driver</span>
 - <span style="font-size:0.8em" >No protection from MM, VMs or hardware snooping</span><br>
-@fa[circle gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Flash protected by hardware cannot be modified outside<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of MM after the end of DXE </span> 
+
+ @fa[circle gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Flash protected by hardware cannot be modified outside<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of MM after the end of DXE </span> 
 - <span style="font-size:0.8em" >Not worried about snooping since no secrets are stored in BIOS</span>
 - <span style="font-size:0.8em" >Not worried about flash-altering hardware attacks</span><br>
-@fa[circle gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;Software MMIs cause CPUs to enter SMM in SMRAM <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;at a fixed location</span><br>
-@fa[circle gp-bullet-ltgreen]<span style="font-size:0.9em">&nbsp;&nbsp;MMRAM cannot be altered from outside SMM </span>
+
+ @fa[circle gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;Software MMIs cause CPUs to enter SMM in SMRAM <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;at a fixed location</span><br>
+
+ @fa[circle gp-bullet-ltgreen]<span style="font-size:0.9em">&nbsp;&nbsp;MMRAM cannot be altered from outside SMM </span>
 
 Note:
 Same as slide
