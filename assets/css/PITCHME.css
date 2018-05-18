@@ -131,6 +131,7 @@ span.aside {
     float: right;
     z-index: -10;
     width: 45%;
+}
 
 .reveal a.pro-link {
     font-size: 0.5em;
