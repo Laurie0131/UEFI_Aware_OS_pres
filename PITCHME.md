@@ -857,9 +857,18 @@ Note:
   - BIOS vendor applications (flash utilities, setup access)
   - OEM/ODM applications 
 
-
 ---?image=/assets/images/slides/Slide68_1.JPG
 @title[Why MMI Vulnerabilities )]
+<p align="right"><span class="gold" ><b>Why are Software MMI Vulnerabilities Dangerous?</b></span></p>
+<br>
+
+Note: 
+
+
++++?image=/assets/images/slides/Slide68_1.JPG
+<!-- .slide: data-background-transition="none" -->
+<!-- .slide: data-transition="none" --> 
+@title[Why MMI Vulnerabilities ) 02]
 <p align="right"><span class="gold" ><b>Why are Software MMI Vulnerabilities Dangerous?</b></span></p>
 <br>
 <span style="font-size:0.9em" >Software MMIs can be asked to perform: </span>
@@ -882,6 +891,7 @@ same as Slide
 
 ---
 @title[UEFI Platform Firmware Assumptions ]
+<!-- .slide: data-transition="none" --> 
 <p align="right"><span class="gold" >UEFI Platform Firmware Assumptions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
  @fa[circle gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Memory protected by the OS cannot be snooped while<br>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in use by the OS application or OS driver</span><br>
@@ -893,9 +903,9 @@ Same as slide
 
 +++
 @title[UEFI Platform Firmware Assumptions 02 ]
-<p align="right"><span class="gold" >UEFI Platform Firmware Assumptions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" --> 
+<p align="right"><span class="gold" >UEFI Platform Firmware Assumptions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
  @fa[circle gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Memory protected by the OS cannot be snooped while<br>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in use by the OS application or OS driver</span><br>
  <span style="font-size:0.75em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- No protection from MM, VMs or hardware snooping</span><br>
@@ -958,6 +968,79 @@ Same as slide
 <div class="right1">
    <span style="font-size:01.5em" ><font color="yellow"><b>      </b></font></span>
 </div>
+
+
+---?image=assets/images/binary-strings-black2.jpg
+@title[Coreboot Section]
+<br><br><br><br><br>
+## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Coreboot</span>
+<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How does coreboot work with UEFI  </span>
+
+Note:
+Section
+
+
+---?image=/assets/images/slides/Slide77.JPG
+<!-- .slide: data-transition="none" -->		 
+@title[UEFI Boot Flow coreboot]
+<p align="right"><span class="gold" > UEFI - PI & EDK II Boot Flow </span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>coreboot</b> </span></p>
+
+Note:
+SEC Function <Br>
+
+Review -Boot Execution Flow
+
++++?image=/assets/images/slides/Slide78.JPG
+<!-- .slide: data-background-transition="none" -->
+<!-- .slide: data-transition="none" -->
+@title[UEFI Boot Flow coreboot 02]
+<p align="right"><span class="gold" > UEFI - PI & EDK II Boot Flow </span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>coreboot</b> </span></p>
+
+Note:
+SEC Function <Br>
+
+Review -Boot Execution Flow
+
++++?image=/assets/images/slides/Slide79.JPG
+<!-- .slide: data-background-transition="none" -->
+<!-- .slide: data-transition="none" -->
+@title[UEFI Boot Flow coreboot 03]
+<p align="right"><span class="gold" > UEFI - PI & EDK II Boot Flow </span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>coreboot</b> </span></p>
+
+Note:
+SEC Function <Br>
+
+Review -Boot Execution Flow
+
+---?image=/assets/images/slides/Slide81.JPG
+<!-- .slide: data-transition="none" -->		 
+@title[coreboot Payload]
+<p align="right"><span class="gold" >Coreboot Payload </span></p>
+
+Note:
+
+Coreboot in itself is "only" minimal code for initializing hardware. It does not have the media drivers nor does it provide services required by an OS. 
+After the initialization, it jumps to a payload which can provide services required to load and boot an OS. http://www.coreboot.org/Payloads
+
+
+UEFI payload provides UEFI services on top of coreboot that allows UEFI OS boot.
+Wiki/Coreboot_UEFI_payload- 
+https://github.com/tianocore/tianocore.github.io/wiki/Coreboot_UEFI_payload 
+
+---?image=/assets/images/slides/Slide83.JPG
+<!-- .slide: data-transition="none" -->		 
+@title[Consumers: EDK II firmware and coreboot]
+<p align="right"><span class="gold" >Consumers: EDK II firmware and coreboot</span></p>
+
+
+Note:
+
+- Functionality is on the left side.     
+- Don’t say it’s a comparison.  
+- Put in payload and have in speaker notes.   Speak to this.
+
+
+
 
 
 ---  
