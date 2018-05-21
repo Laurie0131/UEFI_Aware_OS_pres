@@ -437,7 +437,7 @@ Note:
 
 - Code example:
 
-```C++
+<pre>
 
  #include <windows.h>
  #include <tchar.h>
@@ -483,8 +483,8 @@ Note:
    }
  }
  
-```
 
+</pre>
 
 
 ---
