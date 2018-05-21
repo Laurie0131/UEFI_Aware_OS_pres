@@ -1,5 +1,5 @@
 <!--- @file
-  Readme.md for UEFI / EDK II Training UEFI Shell App Pres
+  Readme.md for UEFI / EDK II Training UEFI Aware OS Pres
 
   Copyright (c) 2018, Intel Corporation. All rights reserved.<BR>
 
