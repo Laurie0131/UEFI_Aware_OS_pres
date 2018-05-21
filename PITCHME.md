@@ -54,7 +54,7 @@ Note:
 
 
 ---?image=assets/images/binary-strings-black2.jpg
-@title[UEFI Shell Overview Section]
+@title[UEFI Aware OS Requirements Section]
 <br><br><br><br><br>
 ### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Aware OS Requirements</span>
 <span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Common Requirements</span>
@@ -392,6 +392,140 @@ Os loader needs to be here
 - Boot manager required in UEFI spec – 1st boot option could be boot to Windows Boot Manager on Windows hard disk 
 
 - There can be mult boot option
+
+---?image=assets/images/binary-strings-black2.jpg
+@title[Interface Inside OS Runtime Section]
+<br><br><br><br><br>
+### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interface Inside OS Runtime</span>
+<span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Runtime Services</span>
+
+
+---?image=/assets/images/slides/Slide35_1.JPG
+@title[Runtime Services Table ]
+### <p align="right"><span class="gold" >Runtime Services Available to the OS</span></p>
+
+
+Note:
+
+---
+
+@title[Accessing RT Services from Windows ]
+### <p align="right"><span class="gold" >Accessing RT services from Windows API  </span></p>
+
+- GetFirmwareEnvironmentVariable: http://msdn.microsoft.com/en-us/library/windows/desktop/ms724325(v=vs.85).aspx 
+- SetFirmwareEnvironmentVariable: http://msdn.microsoft.com/en-us/library/windows/desktop/ms724934(v=vs.85).aspx
+
+- Example: (determine if UEFI or Legacy BIOS)
+
+```C
+ int main(int argc, char*argv[])
+{
+        GetFirmwareEnvironmentVariableA("",
+           "{00000000-0000-0000-0000-000000000000}",NULL,0);
+        if (GetLastError() ==ERROR_INVALID_FUNCTION) { 
+              printf("Legacy"); // This.. is.. LEGACY BIOS....
+              return 1;
+        } else{
+              printf("UEFI"); // This.. is.. UEFI
+              return 0;
+        }
+        return 0;
+}
+```
+
+
+Note:
+
+
+
+```C
+#include <windows.h>
+#include <tchar.h>
+#include <stdio.h>
+
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+      DWORD dwRet = 0;
+
+     if(GetFirmwareEnvironmentVariable(
+          _T(""), 
+          _T("{00000000-0000-0000-0000-000000000000}"), 
+          NULL ,
+          0)  == 0)
+    {
+         if(GetLastError() == ERROR_INVALID_FUNCTION)
+        {
+             printf("Windows was installed using legacy BIOS\n");
+        }
+        else
+        {
+              DWORD dwTimeout = 0;
+              printf("ErrCode = %ld\n",GetLastError());
+              //Here errcode is 998
+              printf("Windows was installed using UEFI BIOS\n");
+
+              dwRet = GetFirmwareEnvironmentVariable(
+                    _T("Timeout"), 
+                   _T("{8BE4DF61-93CA-11d2-AA0D-                                00E098032B8C}"), 
+                   &dwTimeout ,
+                   sizeof(DWORD));
+            if(dwRet)
+            {
+                    printf("dwTimeout = %ld\n",dwTimeout);
+            }
+            else
+            {
+                 printf("ErrCode = %ld\n",GetLastError());
+                              //Here Errcode is 1314. It's meant that                  //'A required privilege is not held by the client.'                 //What's the meanning? How can i get this privilege?
+            }   
+        }
+   }
+}
+ 
+
+```
+
+
+
+---
+
+@title[Accessing RT Services from Linux ]
+<br>
+### <p align="right"><span class="gold" >Accessing RT services from Linux like OS  </span></p>
+<br>
+<span style="font-size:0.9em" > Firmware Test Suite, it includes a Linux kernel driver to help with it's interactions with UEFI. Note that this is a Linux-centric test suite, solution won't work for other OSes.</span>
+- <span style="font-size:0.8em" > http://kernel.ubuntu.com/git/hwe/fwts.git</span>
+- <span style="font-size:0.8em" > https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1633506</span>
+- <span style="font-size:0.8em" > https://patchwork.kernel.org/patch/9323781/ </span>
+- <span style="font-size:0.8em" > http://www.basicinputoutput.com/2016/03/introduction-to-firmware-test-suite-fwts.html</span>
+
+
+
+Note:
+
+#### Links for Linux
+<pre>
+ Wanted to access RT services from OS.
+ >> 	1.) Are there any already such exposed OS function or utilities ?
+ >> 	2.) Can we plugin our own service/function to RT at run-time. ?
+ >> 
+
+ You might want to look at Firmware Test Suite, it includes a Linux kernel driver to help with it's interactions with UEFI. Note that this is a Linux-centric test suite, solution won't work for other OSes.
+  -  http://kernel.ubuntu.com/git/hwe/fwts.git
+  -  https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1633506
+  -  https://patchwork.kernel.org/patch/9323781/
+  -  http://www.basicinputoutput.com/2016/03/introduction-to-firmware-test-suite-fwts.html
+  
+ On 09/05/2017 12:32 AM, Marvin H?user wrote:
+ > Good morning,
+ > 
+ > 1.) Do you mean whether the OS exposes the Runtime Services? Windows and Linux expose the Variable Services (Linux even more, if I remember correctly) and macOS (not entirely sure about the latest version) the entire table via DeviceTree.<br>
+ > 2.) Yes, you need to write a DXE Runtime Driver. One way to do it is install an UEFI Protocol and let the UEFI OS loader store its address (pay attention to allocate the structure from Runtime memory, update the pointers when going virtual and not use any Boot Services), another is to use the UEFI Configuration Table. Though remember that the OS still has hardware ownership, you might need to use Management Mode for your ideas. If you target Windows, I'm afraid software MMIs/ACPI or a shim for the RT Variable Services ("execute on variable write") are the only ways I know as you of course cannot alter the bootloader or access the System Table at runtime.<br>
+ > 
+
+</pre>
+
 
 
 ---?image=assets/images/binary-strings-black2.jpg
