@@ -402,7 +402,7 @@ Os loader needs to be here
 
 ---?image=/assets/images/slides/Slide35_1.JPG
 @title[Runtime Services Table ]
-### <p align="right"><span class="gold" >Runtime Services Available to the OS</span></p>
+<p align="right"><span class="gold" >Runtime Services Available to the UEFI Aware OS</span></p>
 
 
 Note:
@@ -410,12 +410,11 @@ Note:
 ---
 
 @title[Accessing RT Services from Windows ]
-### <p align="right"><span class="gold" >Accessing RT services from Windows API  </span></p>
+### <p align="right"><span class="gold" >Accessing RT services from Windows API</span></p>
 
-- GetFirmwareEnvironmentVariable: http://msdn.microsoft.com/en-us/library/windows/desktop/ms724325(v=vs.85).aspx 
-- SetFirmwareEnvironmentVariable: http://msdn.microsoft.com/en-us/library/windows/desktop/ms724934(v=vs.85).aspx
-
-- Example: (determine if UEFI or Legacy BIOS)
+- <span style="font-size:0.8em" >GetFirmwareEnvironmentVariable: <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms724325(v=vs.85).aspx">MSDN Link</a></span>
+- <span style="font-size:0.8em" >SetFirmwareEnvironmentVariable: <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms724934(v=vs.85).aspx">MSDN Link</a></span>
+- <span style="font-size:0.8em" >Example: (determine if UEFI or Legacy BIOS)</span>
 
 ```C
  int main(int argc, char*argv[])
@@ -436,16 +435,17 @@ Note:
 
 Note:
 
+- Code example:
+
+```C++
+
+ #include <windows.h>
+ #include <tchar.h>
+ #include <stdio.h>
 
 
-```C
-#include <windows.h>
-#include <tchar.h>
-#include <stdio.h>
-
-
-int _tmain(int argc, _TCHAR* argv[])
-{
+ int _tmain(int argc, _TCHAR* argv[])
+ {
       DWORD dwRet = 0;
 
      if(GetFirmwareEnvironmentVariable(
@@ -477,13 +477,12 @@ int _tmain(int argc, _TCHAR* argv[])
             else
             {
                  printf("ErrCode = %ld\n",GetLastError());
-                              //Here Errcode is 1314. It's meant that                  //'A required privilege is not held by the client.'                 //What's the meanning? How can i get this privilege?
+                              //Here Errcode is 1314. It's meant that  //'A required privilege is not held by the client.'  //What's the meanning? How can i get this privilege?
             }   
         }
    }
-}
+ }
  
-
 ```
 
 
@@ -492,8 +491,8 @@ int _tmain(int argc, _TCHAR* argv[])
 
 @title[Accessing RT Services from Linux ]
 <br>
-### <p align="right"><span class="gold" >Accessing RT services from Linux like OS  </span></p>
-<br>
+### <p align="right"><span class="gold" >Accessing RT services from Linux </span></p>
+
 <span style="font-size:0.9em" > Firmware Test Suite, it includes a Linux kernel driver to help with it's interactions with UEFI. Note that this is a Linux-centric test suite, solution won't work for other OSes.</span>
 - <span style="font-size:0.8em" > http://kernel.ubuntu.com/git/hwe/fwts.git</span>
 - <span style="font-size:0.8em" > https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1633506</span>
