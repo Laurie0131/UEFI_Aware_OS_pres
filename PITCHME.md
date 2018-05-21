@@ -8,7 +8,7 @@
 <br>
 <span style="font-size:0.75em" ><a href='http://www.tianocore.org'>tianocore.org</a></span>
 Note:
-  PITCHME.md for UEFI / EDK II Training  UEFI Shell Application
+  PITCHME.md for UEFI / EDK II Training  UEFI Aware OS
 
   Copyright (c) 2018, Intel Corporation. All rights reserved.<BR>
 
