@@ -737,7 +737,7 @@ Authorized Signature DB
 Authorized Signing certificates - white list
 Forbidden Signature DB
 #### DBX
-Unuthorized Signing certificates - Black list
+Unauthorized Signing certificates - Black list
 
 #### Setup Mode
 #### SetupMode
