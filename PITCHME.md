@@ -855,7 +855,7 @@ Section
 - <span style="font-size:0.8em" >Highest-privilege operating mode (`Ring 0`) with greatest access to system memory and hardware resources </span>
 <br>
 <br>
-<span style="font-size:0.6em" > Presented at UEFI Plugfest Fall 2017: <a href="http://www.uefi.org/sites/default/files/resources/Tim_Lewis_Insyde_Final.pdf">PDF</a></span><span style="font-size:0.5em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="gray"> **Formerly known as SMM in PI specification</font></span>
+<span style="font-size:0.6em" > Presented at UEFI Plugfest Fall 2017: <a href="http://www.uefi.org/sites/default/files/resources/Tim_Lewis_Insyde_Final.pdf">PDF</a></span><span style="font-size:0.5em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#e49436;"> **</font>Formerly known as SMM in PI specification</span>
 
 Note:
 #### Formerly SMM 
