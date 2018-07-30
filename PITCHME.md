@@ -848,14 +848,14 @@ Section
 ---?image=/assets/images/slides/Slide58.JPG
 @title[PI Spec Introduces Management Mode (MM) ]
 <br>
-<p align="center"><span class="gold" ><b>Platform Intiialization (PI) Specification Introduces Management Mode (MM)**</b></span></p>
-<span style="font-size:0.9em" > UEFI PI-standard for creating a protected execution environment using hardware resources</span>
+<p align="center"><span class="gold" ><b>Platform Initialization (PI) Specification Introduces Management Mode (MM)**</b></span></p>
+<p style="line-height:80%"><span style="font-size:0.9em" > UEFI PI-standard for creating a protected execution environment using hardware resources</span></p>
 - <span style="font-size:0.8em" >Dedicated, protected memory space, entry point and hardware resources, such as timers and interrupt controllers</span>
 - <span style="font-size:0.8em" >Implemented using SMM (Intel® Architecture) or TrustZone(Arm)</span>
 - <span style="font-size:0.8em" >Highest-privilege operating mode (`Ring 0`) with greatest access to system memory and hardware resources </span>
 <br>
 <br>
-<span style="font-size:0.6em" > Presented at UEFI Plugfest Fall 2017: <a href="http://www.uefi.org/sites/default/files/resources/Tim_Lewis_Insyde_Final.pdf">PDF</a><span style="font-size:0.58em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="gray"> **Formerly known as SMM in PI specification</font></span>
+<span style="font-size:0.6em" > Presented at UEFI Plugfest Fall 2017: <a href="http://www.uefi.org/sites/default/files/resources/Tim_Lewis_Insyde_Final.pdf">PDF</a></span><span style="font-size:0.5em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="gray"> **Formerly known as SMM in PI specification</font></span>
 
 Note:
 #### Formerly SMM 
