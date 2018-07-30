@@ -71,7 +71,7 @@ Many OS already use UEFI to boot from and use UEFI Runtime Services
 ---?image=/assets/images/slides/Slide6.JPG
 <!-- .slide: data-transition="none" -->		 
 @title[UEFI Boot Flow review]
-<p align="right"><span class="gold" > UEFI - PI & EDK II Boot Flow </span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>Review</b> </span></p>
+<p align="right"><span class="gold" ><b> UEFI - PI & EDK II Boot Flow </b></span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>Review</b> </span></p>
 
 Note:
 SEC Function <Br>
@@ -82,7 +82,7 @@ Review -Boot Execution Flow
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI Boot Flow review 02]
-<p align="right"><span class="gold" > UEFI - PI & EDK II Boot Flow </span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>Review</b> </span></p>
+<p align="right"><span class="gold" ><b> UEFI - PI & EDK II Boot Flow </b></span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>Review</b> </span></p>
  
 Note:
 Review -Boot Execution Flow
@@ -92,7 +92,7 @@ Review -Boot Execution Flow
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI Boot Flow review 03]
-<p align="right"><span class="gold" > UEFI - PI & EDK II Boot Flow </span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>Review</b> </span></p>
+<p align="right"><span class="gold" ><b> UEFI - PI & EDK II Boot Flow </b></span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>Review</b> </span></p>
  
 Note:
 Review -Boot Execution Flow
@@ -102,7 +102,7 @@ Review -Boot Execution Flow
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI Boot Flow review 09]
-<p align="right"><span class="gold" > UEFI - PI & EDK II Boot Flow </span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>Review</b> </span></p>
+<p align="right"><span class="gold" ><b> UEFI - PI & EDK II Boot Flow </b></span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>Review</b> </span></p>
  
 Note:
 Review -Boot Execution Flow
@@ -189,7 +189,7 @@ Note:
 ---?image=/assets/images/slides/Slide18.JPG
 <!-- .slide: data-transition="none" -->
 @title[UEFI System Classes ]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436">UEFI System Classes&nbsp;&nbsp;</span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
+<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
 
 Note:
 Make sure the “class” terminology is understood here before moving on
@@ -213,7 +213,7 @@ Make sure the “class” terminology is understood here before moving on
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI System Classes 02]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436">UEFI System Classes&nbsp;&nbsp;</span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
+<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
 
 
 Note:
@@ -223,7 +223,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI System Classes 03]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436">UEFI System Classes&nbsp;&nbsp;</span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
+<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
 
 
 Note:
@@ -232,7 +232,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI System Classes 04]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436">UEFI System Classes&nbsp;&nbsp;</span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
+<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
 
 
 Note:
@@ -242,7 +242,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI System Classes 05]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436">UEFI System Classes&nbsp;&nbsp;</span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
+<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
 
 
 Note:
@@ -252,7 +252,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI System Classes 06]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436">UEFI System Classes&nbsp;&nbsp;</span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
+<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
 
 
 Note:
@@ -261,7 +261,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI System Classes 07]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436">UEFI System Classes&nbsp;&nbsp;</span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
+<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
 
 
 Note:
@@ -282,7 +282,7 @@ Make sure the “class” terminology is understood here before moving on
 ---?image=/assets/images/slides/Slide27.JPG
 <!-- .slide: data-transition="none" -->
 @title[Required UEFI Drivers: OS Install & Boot]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436">Required UEFI Drivers:&nbsp;&nbsp;</span><span style="font-size:0.8em" ><font color="#FFC000">OS Install & Boot<font></span></p>
+<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>Required UEFI Drivers:&nbsp;&nbsp;</b></span><span style="font-size:0.8em" ><font color="#FFC000">OS Install & Boot<font></span></p>
 
 Note:
 - Boot Device: hard drive controller, USB, RAID, Fiber Channel, network, etc. 
@@ -296,7 +296,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Required UEFI Drivers: OS Install & Boot 02]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436">Required UEFI Drivers:&nbsp;&nbsp;</span><span style="font-size:0.8em" ><font color="#FFC000">OS Install & Boot<font></span></p>
+<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>Required UEFI Drivers:&nbsp;&nbsp;</b></span><span style="font-size:0.8em" ><font color="#FFC000">OS Install & Boot<font></span></p>
 
 Note:
 
@@ -305,7 +305,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Required UEFI Drivers: OS Install & Boot 03]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436">Required UEFI Drivers:&nbsp;&nbsp;</span><span style="font-size:0.8em" ><font color="#FFC000">OS Install & Boot<font></span></p>
+<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>Required UEFI Drivers:&nbsp;&nbsp;</b></span><span style="font-size:0.8em" ><font color="#FFC000">OS Install & Boot<font></span></p>
 
 Note:
 
@@ -314,7 +314,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Required UEFI Drivers: OS Install & Boot 04]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436">Required UEFI Drivers:&nbsp;&nbsp;</span><span style="font-size:0.8em" ><font color="#FFC000">OS Install & Boot<font></span></p>
+<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>Required UEFI Drivers:&nbsp;&nbsp;</b></span><span style="font-size:0.8em" ><font color="#FFC000">OS Install & Boot<font></span></p>
 
 Note:
 - Boot Device: hard drive controller, USB, RAID, Fiber Channel, network, etc. 
@@ -366,7 +366,7 @@ All UEFI OS’s require that firmware contain UEFI drivers for Boot devices and 
 
 ---?image=/assets/images/slides/Slide33.JPG
 @title[Disk Partition and Format]
-<p align="right"><span class="gold" >Disk Partition and Format</span></p>
+<p align="right"><span class="gold" ><b>Disk Partition and Format</b></span></p>
 
 
 Note:
@@ -402,7 +402,7 @@ Os loader needs to be here
 
 ---?image=/assets/images/slides/Slide35_1.JPG
 @title[Runtime Services Table ]
-<p align="right"><span class="gold" >Runtime Services Available to the UEFI Aware OS</span></p>
+<p align="right"><span class="gold" ><b>Runtime Services Available to the UEFI Aware OS</b></span></p>
 
 
 Note:
@@ -754,7 +754,7 @@ Unuthorized Signing certificates - Black list
 ---?image=/assets/images/slides/Slide_blank.jpg
 <!-- .slide: data-transition="none" -->
 @title[Security Package Project Page]
-<p align="right"><span class="gold" >Security Package Project Page</span><span style="font-size:0.8em" ><a href="https://github.com/tianocore/tianocore.github.io/wiki/SecurityPkg 
+<p align="right"><span class="gold" ><b>Security Package Project Page</b></span><span style="font-size:0.8em" ><a href="https://github.com/tianocore/tianocore.github.io/wiki/SecurityPkg 
 "> Wiki Link</a></span></p>
 <br>
 <div class="left1">
@@ -775,7 +775,7 @@ Note:
 @title[Security Package Project Page]
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
-<p align="right"><span class="gold" >Security Package Project Page</span><span style="font-size:0.8em" ><a href="https://github.com/tianocore/tianocore.github.io/wiki/SecurityPkg 
+<p align="right"><span class="gold" ><b>Security Package Project Page</b></span><span style="font-size:0.8em" ><a href="https://github.com/tianocore/tianocore.github.io/wiki/SecurityPkg 
 "> Wiki Link</a></span></p>
 <br>
 <div class="left1">
@@ -797,10 +797,10 @@ Note:
 
 ---?image=/assets/images/slides/Slide53.JPG
 @title[Windows Secure Boot Key]
-<p align="right"><span class="gold" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Windows Secure Boot Key Creation and Management Guidance</span></p>
+<p align="right"><span class="gold" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Windows Secure Boot Key Creation and Management Guidance</b></span></p>
 <div class="left1">
      <ul>
-        <li><span style="font-size:0.8em" >Windows - <a href="https://msdn.microsoft.com/en-us/windows/hardware/commercialize/manufacture/desktop/windows-secure-boot-key-creation-and-management-guidance">Secure Boot Key Creation & Manangement Guide  
+        <li><span style="font-size:0.8em" >Windows - <a href="https://msdn.microsoft.com/en-us/windows/hardware/commercialize/manufacture/desktop/windows-secure-boot-key-creation-and-management-guidance">Secure Boot Key Creation & Management Guide  
 </a></span></span></li>
         <li><span style="font-size:0.8em" >Creation and management of the Secure Boot keys and certificates in a manufacturing environment.</span></li>
         <li><span style="font-size:0.8em" >Addresses questions related to creation, storage and retrieval of Platform Keys (PKs), secure firmware update keys, and third party Key Exchange Keys (KEKs).
@@ -819,7 +819,7 @@ This document helps guide OEMs and ODMs in creation and management of the Secure
 
 ---?image=/assets/images/slides/Slide55.JPG
 @title[Platforms Require Secure Boot Enabled]
-<p align="right"><span class="gold" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Many Platforms are Requiring UEFI Secure Boot Enabled</span></p>
+<p align="right"><span class="gold" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Many Platforms are Requiring UEFI Secure Boot Enabled</b></span></p>
 <br>
 <br>
 <div class="left1">
@@ -848,7 +848,7 @@ Section
 ---?image=/assets/images/slides/Slide58.JPG
 @title[PI Spec Introduces Management Mode (MM) ]
 <br>
-<p align="center"><span class="gold" >Platform Intiialization (PI) Specification Introduces Management Mode (MM)**</span></p>
+<p align="center"><span class="gold" ><b>Platform Intiialization (PI) Specification Introduces Management Mode (MM)**</b></span></p>
 <span style="font-size:0.9em" > UEFI PI-standard for creating a protected execution environment using hardware resources</span>
 - <span style="font-size:0.8em" >Dedicated, protected memory space, entry point and hardware resources, such as timers and interrupt controllers</span>
 - <span style="font-size:0.8em" >Implemented using SMM (Intel® Architecture) or TrustZone(Arm)</span>
@@ -878,7 +878,7 @@ System Management Mode (SMM) describes a Processor operating mode which services
 ---?image=/assets/images/slides/Slide60.JPG
 <!-- .slide: data-transition="none" -->		 
 @title[UEFI Boot Flow -SMM review]
-<p align="right"><span class="gold" > UEFI - PI & EDK II Boot Flow </span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>SMM</b> </span></p>
+<p align="right"><span class="gold" ><b> UEFI - PI & EDK II Boot Flow </b></span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>SMM</b> </span></p>
 
 Note:
 ### Review -Boot Execution Flow - SMM
@@ -895,7 +895,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" --> 
 @title[UEFI Boot Flow -SMM review 02]
-<p align="right"><span class="gold" > UEFI - PI & EDK II Boot Flow </span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>SMM</b> </span></p>
+<p align="right"><span class="gold" > <b>UEFI - PI & EDK II Boot Flow </b></span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>SMM</b> </span></p>
 
 Note:
 ### Review -Boot Execution Flow - SMM
@@ -910,7 +910,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" --> 
 @title[UEFI Boot Flow -SMM review 03]
-<p align="right"><span class="gold" > UEFI - PI & EDK II Boot Flow </span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>SMM</b> </span></p>
+<p align="right"><span class="gold" ><b> UEFI - PI & EDK II Boot Flow </b></span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>SMM</b> </span></p>
 
 Note:
 ### Review -Boot Execution Flow - SMM
@@ -924,7 +924,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" --> 
 @title[UEFI Boot Flow -SMM review 04]
-<p align="right"><span class="gold" > UEFI - PI & EDK II Boot Flow </span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>SMM</b> </span></p>
+<p align="right"><span class="gold" ><b> UEFI - PI & EDK II Boot Flow </b></span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>SMM</b> </span></p>
 
 Note:
 ### Review -Boot Execution Flow - SMM
@@ -938,7 +938,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" --> 
 @title[UEFI Boot Flow -SMM review 05]
-<p align="right"><span class="gold" > UEFI - PI & EDK II Boot Flow </span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>SMM</b> </span></p>
+<p align="right"><span class="gold" > <b>UEFI - PI & EDK II Boot Flow </b></span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>SMM</b> </span></p>
 
 Note:
 ### Review -Boot Execution Flow - SMM
@@ -953,7 +953,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" --> 
 @title[UEFI Boot Flow -SMM review 06]
-<p align="right"><span class="gold" > UEFI - PI & EDK II Boot Flow </span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>SMM</b> </span></p>
+<p align="right"><span class="gold" ><b> UEFI - PI & EDK II Boot Flow </b></span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>SMM</b> </span></p>
 
 Note:
 ### Review -Boot Execution Flow - SMM
@@ -966,7 +966,7 @@ Note:
 
 ---
 @title[Software Management Mode Interrupts (Software MMIs)]
-<p align="right"><span class="gold" >Software Management Mode Interrupts (SW MMIs)</span></p>
+<p align="right"><span class="gold" ><b>Software Management Mode Interrupts (SW MMIs)</b></span></p>
 <br>
 @fa[circle gp-bullet-cream]&nbsp;&nbsp;<span style="font-size:0.9em" >Management Mode Interrupts generated by software<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;synchronously are called Software MMIs</span><br>
@@ -1025,7 +1025,7 @@ same as Slide
 ---
 @title[UEFI Platform Firmware Assumptions ]
 <!-- .slide: data-transition="none" --> 
-<p align="right"><span class="gold" >UEFI Platform Firmware Assumptions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+<p align="right"><span class="gold" ><b>UEFI Platform Firmware Assumptions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></span></p>
  @fa[circle gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Memory protected by the OS cannot be snooped while<br>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in use by the OS application or OS driver</span><br>
  <span style="font-size:0.75em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- No protection from MM, VMs or hardware snooping</span><br>
@@ -1038,7 +1038,7 @@ Same as slide
 @title[UEFI Platform Firmware Assumptions 02 ]
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" --> 
-<p align="right"><span class="gold" >UEFI Platform Firmware Assumptions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+<p align="right"><span class="gold" ><b>UEFI Platform Firmware Assumptions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></span></p>
  @fa[circle gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Memory protected by the OS cannot be snooped while<br>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in use by the OS application or OS driver</span><br>
  <span style="font-size:0.75em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- No protection from MM, VMs or hardware snooping</span><br>
@@ -1050,7 +1050,7 @@ Same as slide
 
 +++
 @title[UEFI Platform Firmware Assumptions 02 ]
-<p align="right"><span class="gold" >UEFI Platform Firmware Assumptions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+<p align="right"><span class="gold" ><b>UEFI Platform Firmware Assumptions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></span></p>
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" --> 
  @fa[circle gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Memory protected by the OS cannot be snooped while<br>
@@ -1065,7 +1065,7 @@ Same as slide
 
 +++
 @title[UEFI Platform Firmware Assumptions 02 ]
-<p align="right"><span class="gold" >UEFI Platform Firmware Assumptions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+<p align="right"><span class="gold" ><b>UEFI Platform Firmware Assumptions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></span></p>
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" --> 
  @fa[circle gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Memory protected by the OS cannot be snooped while<br>
@@ -1087,7 +1087,7 @@ Same as slide
 ---?image=/assets/images/slides/Slide71.JPG
 @title[Key Points for More Secure Software MMI Handlers]
 <br>
-<p align="right"><span class="gold" >Key Points for More Secure Software MMI Handlers</span></p>
+<p align="right"><span class="gold" ><b>Key Points for More Secure Software MMI Handlers</b></span></p>
 <br>
 <div class="left1">
      <ul>
@@ -1116,7 +1116,7 @@ Section
 ---?image=/assets/images/slides/Slide77.JPG
 <!-- .slide: data-transition="none" -->		 
 @title[UEFI Boot Flow coreboot]
-<p align="right"><span class="gold" > UEFI - PI & EDK II Boot Flow </span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>coreboot</b> </span></p>
+<p align="right"><span class="gold" ><b> UEFI - PI & EDK II Boot Flow </b></span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>coreboot</b> </span></p>
 
 Note:
 SEC Function <Br>
@@ -1127,7 +1127,7 @@ Review -Boot Execution Flow
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI Boot Flow coreboot 02]
-<p align="right"><span class="gold" > UEFI - PI & EDK II Boot Flow </span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>coreboot</b> </span></p>
+<p align="right"><span class="gold" ><b> UEFI - PI & EDK II Boot Flow </b></span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>coreboot</b> </span></p>
 
 Note:
 SEC Function <Br>
@@ -1138,7 +1138,7 @@ Review -Boot Execution Flow
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI Boot Flow coreboot 03]
-<p align="right"><span class="gold" > UEFI - PI & EDK II Boot Flow </span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>coreboot</b> </span></p>
+<p align="right"><span class="gold" ><b> UEFI - PI & EDK II Boot Flow </b></span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>coreboot</b> </span></p>
 
 Note:
 SEC Function <Br>
@@ -1148,7 +1148,7 @@ Review -Boot Execution Flow
 ---?image=/assets/images/slides/Slide81.JPG
 <!-- .slide: data-transition="none" -->		 
 @title[coreboot Payload]
-<p align="right"><span class="gold" >Coreboot Payload </span></p>
+<p align="right"><span class="gold" ><b>Coreboot Payload </b></span></p>
 
 Note:
 
@@ -1163,7 +1163,7 @@ https://github.com/tianocore/tianocore.github.io/wiki/Coreboot_UEFI_payload
 ---?image=/assets/images/slides/Slide83.JPG
 <!-- .slide: data-transition="none" -->		 
 @title[Consumers: EDK II firmware and coreboot]
-<p align="right"><span class="gold" >Consumers: EDK II firmware and coreboot</span></p>
+<p align="right"><span class="gold" ><b>Consumers: EDK II firmware and coreboot</b></span></p>
 
 
 Note:
