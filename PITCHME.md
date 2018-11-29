@@ -396,7 +396,8 @@ It is the responsibility of the OS Loader to call ExitBootServices() event.
 ---
 
 @title[Accessing RT Services from Windows ]
-#### <p align="right"><span class="gold" >@fa[windows gp-bullet-cyan] &nbsp;&nbsp; Accessing RT services from Windows API</span></p>
+<br>
+#### <p align="right"><span class="gold" >@fa[windows gp-bullet-cyan fa-3x] &nbsp;&nbsp; Accessing RT services from Windows API</span></p>
 
 - <span style="font-size:0.8em" >GetFirmwareEnvironmentVariable: <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms724325(v=vs.85).aspx">MSDN Link</a></span>
 - <span style="font-size:0.8em" >SetFirmwareEnvironmentVariable: <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms724934(v=vs.85).aspx">MSDN Link</a></span>
@@ -481,7 +482,7 @@ The links will help to find more actual examples
 
 @title[Accessing RT Services from Linux ]
 <br>
-#### <p align="right"><span class="gold" >@fa[linux gp-bullet-white] &nbsp;&nbsp; Accessing RT services from Linux </span></p>
+#### <p align="right"><span class="gold" >@fa[linux gp-bullet-white fa-3x] &nbsp;&nbsp; Accessing RT services from Linux </span></p>
 
 <span style="font-size:0.9em" > Firmware Test Suite, it includes a Linux kernel driver to help with it's interactions with UEFI. Note that this is a Linux-centric test suite, solution won't work for other OSes.</span>
 - <span style="font-size:0.8em" > http://kernel.ubuntu.com/git/hwe/fwts.git</span>
@@ -522,6 +523,19 @@ Note:
 <br><br><br><br><br>
 ## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Security with UEFI</span>
 <span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How does UEFI  ensure the Operating System is trusted?</span>
+
+
+
+---
+#### <p align="right"><span class="gold" >Boot Security Technologies</span></p>
+
+@snap[south-west span-100]
+<span style="font-size:0.5em" >Resources: https://firmwaresecurity.com/2015/07/29/survey-of-boot-security-technologies/</span>
+@snapend
+
+@snap[south-east span-100]
+<span style="font-size:0.45em" >TPM - Trusted Platform Module</span>
+@snapend
 
 ---?image=/assets/images/slides/Slide36.JPG
 @title[Boot Security Technologies]
