@@ -276,12 +276,12 @@ Make sure the “class” terminology is understood here before moving on
 
 @snap[south-west span-45 fragment]
 @box[bg-yellow text-blue  rounded ](<span style="font-size:01.52em" ><b>Console Input</b></span><br>&nbsp;)
-@css[text-yellow]( <br>&nbsp;<br>&nbsp;<br>&nbsp;)
+@css[text-yellow]( <br>&nbsp;<br>&nbsp;)
 @snapend
 
 @snap[south-east span-45 fragment]
 @box[bg-purple text-white rounded ](<span style="font-size:01.52em" ><b>NVRam Driver</b></span><br>&nbsp;)
-@css[text-yellow]( <br>&nbsp;<br>&nbsp;<br>&nbsp;)
+@css[text-yellow]( <br>&nbsp;<br>&nbsp;)
 @snapend
 
 
