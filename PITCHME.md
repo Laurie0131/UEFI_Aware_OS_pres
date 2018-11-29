@@ -552,8 +552,7 @@ Note:
 <br>
 <br>
 <br>
-<br>
-<span style="font-size:02.5em" >@color[#00ffff](&rarr;)&nbsp;&nbsp; </span>
+<span style="font-size:02.5em" >@color[#00ffff](&rarr;)&nbsp;&nbsp; &nbsp;&nbsp;</span>
 @snapend
 
 @snap[south-east span-100]
