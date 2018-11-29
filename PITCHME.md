@@ -531,15 +531,15 @@ Note:
 <br>
 <table border="0" width="100%">
 	<tr>
-		<td>Hardware Root of Trust</td>
-		<td><span style="font-size:0.75em" >Boot Guard,  Intel® TXT&nbsp;</span></td>
+		<td><b>Hardware Root of Trust</b></td>
+		<td><span style="font-size:0.75em" >Boot Guard,  Intel@reg; TXT <br>&nbsp;</span></td>
 	</tr>
 	<tr>
-		<td>Measured Boot&nbsp;</td>
-		<td><span style="font-size:0.75em" >Using TPM<sup>1</sup> to store hash values&nbsp;</span></td>
+		<td><b>Measured Boot&nbsp;</b></td>
+		<td><span style="font-size:0.75em" >Using TPM<sup>1</sup> to store hash values <br>&nbsp;</span></td>
 	</tr>
 	<tr>
-		<td>Verified Boot&nbsp;</td>
+		<td><b>Verified Boot&nbsp;</b></td>
 		<td><span style="font-size:0.75em" >Boot Guard &nbsp;&nbsp; + <br>UEFI Secure Boot &nbsp;</span></td>
 	</tr>
 </table>
