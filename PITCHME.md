@@ -540,7 +540,7 @@ Note:
 	</tr>
 	<tr>
 		<td><b>Verified Boot&nbsp;</b></td>
-		<td><span style="font-size:0.80em" >Boot Guard &nbsp;&nbsp; + <br>UEFI Secure Boot &nbsp;</span></td>
+		<td><span style="font-size:0.80em" >Boot Guard &nbsp;&nbsp; + <br><b>UEFI Secure Boot </b>&nbsp;</span></td>
 	</tr>
 </table>
 
@@ -550,7 +550,8 @@ Note:
 @snap[midpoint span-35 fragment]
 <br>
 <br>
-<span style="font-size:03.45em" >&rarr; </span>
+<br>
+<span style="font-size:02.5em" >@color[#00ffff](&rarr;) </span>
 @snapend
 
 @snap[south-east span-100]
