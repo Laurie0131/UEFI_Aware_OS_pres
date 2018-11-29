@@ -547,6 +547,12 @@ Note:
 <br>
 <span style="font-size:0.5em" >Resources: https://firmwaresecurity.com/2015/07/29/survey-of-boot-security-technologies/ </span>
 
+@snap[midpoint span-35 fragment]
+<br>
+<br>
+<span style="font-size:03.45em" >&rarr; </span>
+@snapend
+
 @snap[south-east span-100]
 <span style="font-size:0.45em" ><sup>1</sup>TPM - Trusted Platform Module<br><br></span>
 @snapend
