@@ -162,6 +162,9 @@ Note:
 - Nvram Large enough to store device path
 
 - After installation, set boot path to boot to OS as default system behavior
+
+
+
  
 ---?image=/assets/images/slides/Slide18.JPG
 <!-- .slide: data-transition="none" -->
@@ -255,6 +258,34 @@ Make sure the “class” terminology is understood here before moving on
 - UEFI Innovation
 - Performance
 - Extensibility
+
+---
+@title[Required UEFI Drivers: OS Install & Boot]
+<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>Required UEFI Drivers:&nbsp;&nbsp;</b></span><span style="font-size:0.8em" ><font color="#FFC000">OS Install & Boot<font></span></p>
+
+
+@snap[north-west span-45 fragment]
+@css[text-yellow](<br><br>&nbsp; <br>&nbsp;)
+@box[bg-blue text-white  rounded  ](<b>Boot device<b>)
+@snapend
+
+@snap[north-east span-45 fragment]
+@css[text-yellow](<br><br>&nbsp; <br>&nbsp;)
+@box[bg-green text-white rounded ](<b>Console Output</b><br>&nbsp;)
+@snapend
+
+@snap[south-west span-45 fragment]
+@box[bg-yellow text-blue  rounded ](<b>Console Input</b>)
+@css[text-yellow]( <br>&nbsp;)
+@snapend
+
+@snap[south-east span-45 fragment]
+@box[bg-purple text-white rounded ](<b>NVRam Driver</b>)
+@css[text-yellow]( <br>&nbsp;)
+@snapend
+
+
+
 
 ---?image=/assets/images/slides/Slide27.JPG
 <!-- .slide: data-transition="none" -->
