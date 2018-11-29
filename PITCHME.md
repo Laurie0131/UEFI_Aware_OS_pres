@@ -769,7 +769,7 @@ Unauthorized Signing certificates - Black list
 
 - Shell Dmpstore command show the variable "SecureBoot"
 
----?image=/assets/images/slides/Slide_blank.jpg
+---
 
 @title[Security Package Project Page]
 <p align="right"><span class="gold" ><b>Security Package Project Page</b></span><span style="font-size:0.8em" ><a href="https://github.com/tianocore/tianocore.github.io/wiki/SecurityPkg 
@@ -787,7 +787,7 @@ Unauthorized Signing certificates - Black list
    <p align="center"><span style="font-size:01.2em" ><font color="yellow"><b> </b></font></span></p>
 </div>
 
-@snap[north-east span-40 fragment]
+@snap[north-east span-40 ]
 <br>
 <br>
 <br>
@@ -803,47 +803,8 @@ Unauthorized Signing certificates - Black list
 ![wikiPic](/assets/images/wikiPic.png)
 @snapend
 
----?image=/assets/images/slides/Slide_blank.jpg
-<!-- .slide: data-transition="none" -->
-@title[Security Package Project Page]
-<p align="right"><span class="gold" ><b>Security Package Project Page</b></span><span style="font-size:0.8em" ><a href="https://github.com/tianocore/tianocore.github.io/wiki/SecurityPkg 
-"> Wiki Link</a></span></p>
-<br>
-<div class="left1">
-     <ul>
-        <li><span style="font-size:0.8em" >Wiki Link: <a href="https://github.com/tianocore/tianocore.github.io/wiki/How-to-Enable-Security#HOW_TO_ENABLE_SECURE_BOOT_SERVICE">How-to-Enable-Security</a></span></span></li>
-        <li><span style="font-size:0.8em" >PDF <a href="https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.pdf">How to Sign UEFI Images V1.31</a></span></span></li>
-        <li><span style="font-size:0.8em" >Build command line switch - `SECURE_BOOT_ENABLE = TRUE`</span></li>
-        <li><span style="font-size:0.8em" >Install the `CryptoPkg OpensslLib` : <a href="https://github.com/tianocore/edk2/blob/master/CryptoPkg/Library/OpensslLib/OpenSSL-HOWTO.txt">OpenSSL-HOWTO.txt</a></span></li>
-     </ul>
-</div>
-<div class="right1">
-   <p align="center"><span style="font-size:01.2em" ><font color="yellow"><b>How To Enable Secure Boot Service</b></font></span></p>
-</div>
-
 Note:
 
-+++?image=/assets/images/slides/Slide50.JPG
-@title[Security Package Project Page]
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-<p align="right"><span class="gold" ><b>Security Package Project Page</b></span><span style="font-size:0.8em" ><a href="https://github.com/tianocore/tianocore.github.io/wiki/SecurityPkg 
-"> Wiki Link</a></span></p>
-<br>
-<div class="left1">
-     <ul>
-        <li><span style="font-size:0.8em" >Wiki Link: <a href="https://github.com/tianocore/tianocore.github.io/wiki/How-to-Enable-Security#HOW_TO_ENABLE_SECURE_BOOT_SERVICE">How-to-Enable-Security</a></span></span></li>
-        <li><span style="font-size:0.8em" >PDF <a href="https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.pdf">How to Sign UEFI Images V1.31</a></span></span></li>
-        <li><span style="font-size:0.8em" >Build command line switch - `SECURE_BOOT_ENABLE = TRUE`</span></li>
-        <li><span style="font-size:0.8em" >Install the `CryptoPkg OpensslLib` : <a href="https://github.com/tianocore/edk2/blob/master/CryptoPkg/Library/OpensslLib/OpenSSL-HOWTO.txt">OpenSSL-HOWTO.txt</a></span></li>
-     </ul>
-</div>
-<div class="right1">
-   <span style="font-size:01.5em" ><font color="yellow"><b>      </b></font></span>
-</div>
-
-
-Note:
 
 
 
