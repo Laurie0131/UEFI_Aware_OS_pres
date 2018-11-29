@@ -528,13 +528,28 @@ Note:
 
 ---
 #### <p align="right"><span class="gold" >Boot Security Technologies</span></p>
+<br>
+<table border="0" width="100%">
+	<tr>
+		<td>Hardware Root of Trust</td>
+		<td>Boot Guard,  Intel® TXT&nbsp;</td>
+	</tr>
+	<tr>
+		<td>Measured Boot&nbsp;</td>
+		<td>Using TPM to store hash values&nbsp;</td>
+	</tr>
+	<tr>
+		<td>Verified Boot&nbsp;</td>
+		<td>Boot Guard + UEFI Secure Boot &nbsp;</td>
+	</tr>
+</table>
 
 @snap[south-west span-100]
 <span style="font-size:0.5em" >Resources: https://firmwaresecurity.com/2015/07/29/survey-of-boot-security-technologies/</span>
 @snapend
 
 @snap[south-east span-100]
-<span style="font-size:0.45em" >TPM - Trusted Platform Module</span>
+<span style="font-size:0.45em" >TPM - Trusted Platform Module<br><br></span>
 @snapend
 
 ---?image=/assets/images/slides/Slide36.JPG
