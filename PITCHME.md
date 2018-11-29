@@ -306,11 +306,12 @@ Note:
 @fa[circle gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Transfer control to native OS</span><br>
 
 @snap[east span-60 fragment]
+<br>
 #### <p align="right"><span class="gold" >UEFI OS Installer</span></p>
 @snapend
 
 @snap[west span-100 fragment]
-@css[text-yellow]( <br>&nbsp;<br><br><br>)
+@css[text-yellow]( <br>&nbsp;<br><br><br><br><br>)
 @fa[circle gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Discover UEFI storage devices</span> <br>
 @fa[circle gp-bullet-gold]<span style="font-size:0.9em">&nbsp;&nbsp;Setup storage device: GPT w/ FAT32 boot partition</span> <br>
 @fa[circle gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Create boot variable &nbsp;&nbsp;<font face="Consolas" color="#FFFF00">BootXXXX</fon></span><br>
