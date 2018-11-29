@@ -586,7 +586,7 @@ PCRs are registers in the TPM that are cleared only at hardware reset, and canno
 
 <table id="recTable">
 	<tr>
-		<td><bBoot Guard</b></td>
+		<td><b>Boot Guard</b></td>
 		<td><b>Intel&reg; TXT </b></td>
 	</tr>
 	<tr>
@@ -595,12 +595,18 @@ PCRs are registers in the TPM that are cleared only at hardware reset, and canno
 	</tr>
 </table>
 
-@snap[south-west span-50 fragment]
-@box[bg-purple text-white rounded  ]( Verification&nbsp;)
+@snap[south-west span-45 fragment]
+@box[bg-purple text-white rounded  ](<span style="font-size:01.50em" > Verification&nbsp;</span>)
+<br>
+<br>
+<br>
 @snapend
 
-@snap[south-east span-50 fragment]
-@box[bg-purple text-white rounded  ]( Measurements&nbsp;)
+@snap[south-east span-45 fragment]
+@box[bg-purple text-white rounded  ](<span style="font-size:01.50em" > Measurements&nbsp;</span>)
+<br>
+<br>
+<br>
 @snapend
 
 
