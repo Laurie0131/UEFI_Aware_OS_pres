@@ -583,15 +583,15 @@ PCRs are registers in the TPM that are cleared only at hardware reset, and canno
 ---
 @title[Hardware root of Trust ]
 #### <p align="right"><span class="gold" >Hardware root of Trust </span></p>
-
+<br>
 <table id="recTable">
 	<tr>
-		<td><b>Boot Guard&nbsp;&nbsp;&nbsp;</b></td>
-		<td width="50%"><b>Intel&reg; TXT </b></td>
+		<td bgcolor="#121212"><b>Boot Guard&nbsp;&nbsp;&nbsp;</b></td>
+		<td bgcolor="#121212" width="50%"><b>Intel&reg; TXT </b></td>
 	</tr>
 	<tr>
-		<td><span style="font-size:0.80em" >CPU verifies signature<br>Verification occurs before BIOS starts<br>Hash of signature is fused in CPU&nbsp;</span></td>
-		<td width="50%"><span style="font-size:0.80em" >Uses a Trusted Platform Module (TPM) & cryptographic <br>Provides Measurements&nbsp;</span></td>
+		<td><span style="font-size:0.75em" >CPU verifies signature<br><br>Verification occurs before BIOS starts<br><br>Hash of signature is fused in CPU&nbsp;</span></td>
+		<td width="50%"><span style="font-size:0.75em" >Uses a Trusted Platform Module (TPM) & cryptographic <br><br>Provides Measurements&nbsp;</span></td>
 	</tr>
 </table>
 
