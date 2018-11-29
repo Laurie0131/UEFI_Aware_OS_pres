@@ -1016,7 +1016,7 @@ Note:
 <!-- .slide: data-transition="none" --> 
 @title[Why MMI Vulnerabilities ) 02]
 <p align="right"><span class="gold" ><b>Why are Software MMI Vulnerabilities Dangerous?</b></span></p>
-<br>
+<b><i>@color[yellow](Because . . .)</i></b><br>
 <span style="font-size:0.9em" >Software MMIs can be asked to perform: </span>
 <div class="left1">
      <ul>
