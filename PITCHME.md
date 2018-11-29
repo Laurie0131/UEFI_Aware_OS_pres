@@ -543,9 +543,7 @@ Note:
 		<td><span style="font-size:0.80em" >Boot Guard &nbsp;&nbsp; + <br>UEFI Secure Boot &nbsp;</span></td>
 	</tr>
 </table>
-<br>
-<br>
-<br>
+
 <br>
 <span style="font-size:0.5em" >Resources: https://firmwaresecurity.com/2015/07/29/survey-of-boot-security-technologies/ </span>
 
