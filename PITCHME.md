@@ -146,12 +146,12 @@ Boot to OS with UEFI Services available
 @css[text-yellow]( <br>&nbsp;)
 @snapend
 
-<p><!--[if gte vml 1]><v:rect id="_x0000_s1025"
+<p><v:rect id="_x0000_s1025"
  style='position:absolute;left:17.25pt;top:85.5pt;width:64.5pt;height:45pt;
  z-index:1' fillcolor="#11eed8" stroked="f" strokecolor="none"/><![endif]--><![if !vml]><span
 style='mso-ignore:vglayout;position:absolute;z-index:1;left:23px;top:114px;
 width:86px;height:60px'><img width=86 height=60
-src="new_page_14_files/image001.gif" v:shapes="_x0000_s1025"></span><![endif]></p>
+src="new_page_14_files/image001.gif" v:shapes="_x0000_s1025"></span></p>
 
 
 
