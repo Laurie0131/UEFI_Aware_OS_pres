@@ -587,11 +587,11 @@ PCRs are registers in the TPM that are cleared only at hardware reset, and canno
 <table id="recTable">
 	<tr>
 		<td><b>Boot Guard&nbsp;&nbsp;&nbsp;</b></td>
-		<td><b>Intel&reg; TXT </b></td>
+		<td width="50%"><b>Intel&reg; TXT </b></td>
 	</tr>
 	<tr>
 		<td><span style="font-size:0.80em" >CPU verifies signature<br>Verification occurs before BIOS starts<br>Hash of signature is fused in CPU&nbsp;</span></td>
-		<td><span style="font-size:0.80em" >Uses a Trusted Platform Module (TPM) & cryptographic <br>Provides Measurements&nbsp;</span></td>
+		<td width="50%"><span style="font-size:0.80em" >Uses a Trusted Platform Module (TPM) & cryptographic <br>Provides Measurements&nbsp;</span></td>
 	</tr>
 </table>
 
