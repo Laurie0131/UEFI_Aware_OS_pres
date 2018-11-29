@@ -532,15 +532,15 @@ Note:
 <table border="0" width="100%">
 	<tr>
 		<td>Hardware Root of Trust</td>
-		<td>Boot Guard,  Intel® TXT&nbsp;</td>
+		<td><span style="font-size:0.75em" >Boot Guard,  Intel® TXT&nbsp;</span></td>
 	</tr>
 	<tr>
 		<td>Measured Boot&nbsp;</td>
-		<td>Using TPM to store hash values&nbsp;</td>
+		<td><span style="font-size:0.75em" >Using TPM<sup>1</sup> to store hash values&nbsp;</span></td>
 	</tr>
 	<tr>
 		<td>Verified Boot&nbsp;</td>
-		<td>Boot Guard + UEFI Secure Boot &nbsp;</td>
+		<td><span style="font-size:0.75em" >Boot Guard &nbsp;&nbsp; + <br>UEFI Secure Boot &nbsp;</span></td>
 	</tr>
 </table>
 
@@ -549,7 +549,7 @@ Note:
 @snapend
 
 @snap[south-east span-100]
-<span style="font-size:0.45em" >TPM - Trusted Platform Module<br><br></span>
+<span style="font-size:0.45em" ><sup>1</sup>TPM - Trusted Platform Module<br><br></span>
 @snapend
 
 ---?image=/assets/images/slides/Slide36.JPG
