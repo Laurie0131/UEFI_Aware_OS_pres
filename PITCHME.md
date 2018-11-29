@@ -1114,11 +1114,15 @@ Same as slide
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;at a fixed location</span>
 <br>
 <br>
+<br>
+<br>
 @snapend
 @snap[south-west span-100 fragment]
 <br>
 <br>
  @fa[circle gp-bullet-ltgreen]<span style="font-size:0.9em">&nbsp;&nbsp;MMRAM cannot be altered from outside SMM </span>
+<br>
+<br>
 @snapend
 
 
