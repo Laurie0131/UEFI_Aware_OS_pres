@@ -787,7 +787,9 @@ Unauthorized Signing certificates - Black list
    <p align="center"><span style="font-size:01.2em" ><font color="yellow"><b>How To Enable Secure Boot Service</b></font></span></p>
 </div>
 
-@snap[north-east span-40 fragment]
+@snap[north-east span-45 fragment]
+<br>
+<br>
 <br>
 <br>
 ![wikiPic](/assets/images/wikiPic.png)
