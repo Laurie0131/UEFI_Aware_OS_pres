@@ -586,7 +586,7 @@ PCRs are registers in the TPM that are cleared only at hardware reset, and canno
 
 <table id="recTable">
 	<tr>
-		<td><b>Boot Guard</b></td>
+		<td><b>Boot Guard&nbsp;&nbsp;&nbsp;</b></td>
 		<td><b>Intel&reg; TXT </b></td>
 	</tr>
 	<tr>
