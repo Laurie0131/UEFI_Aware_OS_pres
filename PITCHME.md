@@ -1093,9 +1093,32 @@ Same as slide
  @fa[circle gp-bullet-ltgreen]<span style="font-size:0.9em">&nbsp;&nbsp;MMRAM cannot be altered from outside SMM </span>
 
 
+---
+@title[UEFI Platform Firmware Assumptions 02 ]
+<p align="right"><span class="gold" ><b>UEFI Platform Firmware Assumptions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></span></p>
+
+@snap[north-west span-100 fragment]
+@css[text-yellow](&nbsp;<br>)
+ @fa[circle gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Memory protected by the OS cannot be snooped while<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in use by the OS application or OS driver</span><br>
+ <span style="font-size:0.75em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- No protection from MM, VMs or hardware snooping</span><br>
+@endsnap
+@snap[west span-100 fragment]
+ @fa[circle gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Flash protected by hardware cannot be modified <br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;outside of MM after the end of DXE </span><br> 
+ <span style="font-size:0.75em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Not worried about snooping since no secrets are stored in BIOS</span><br>
+ <span style="font-size:0.75em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Not worried about flash-altering hardware attacks</span><br>
+@endsnap
+@snap[south-west span-100 fragment]
+ @fa[circle gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;Software MMIs cause CPUs to enter SMM in SMRAM <br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;at a fixed location</span><br>
+ @fa[circle gp-bullet-ltgreen]<span style="font-size:0.9em">&nbsp;&nbsp;MMRAM cannot be altered from outside SMM </span>
+@endsnap
 
 
+Note:
 
+Same as slide 
 
 ---?image=/assets/images/slides/Slide71.JPG
 @title[Key Points for More Secure Software MMI Handlers]
