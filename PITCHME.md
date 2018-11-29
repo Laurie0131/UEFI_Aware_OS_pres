@@ -118,7 +118,7 @@ Boot to OS with UEFI Services available
 
 @snap[north-west span-35 fragment]
 @css[text-yellow](<br><br>&nbsp; <br>&nbsp;)
-@box[bg-blue text-white  waved  ](<b>UEFI Drivers:</b> Boot devices/console)
+@box[bg-darkblue text-white  waved  ](<b>UEFI Drivers:</b> Boot devices/console)
 @snapend
 
 @snap[north span-35 fragment]
@@ -148,69 +148,7 @@ Boot to OS with UEFI Services available
 
 
  
-
----?image=/assets/images/slides/Slide11.JPG
-<!-- .slide: data-transition="none" -->
-@title[UEFI OS Requirements]
-#### <p align="right"><span class="gold" >UEFI OS Requirements</span></p>
- 
 Note:
-- What is the list of things you need to have in the BIOS/ FW?
-- UEFI drivers for boot devices and console – storage devices / 
-- UEFI loader need / Elilo for Linux - / RH published need to be there
-  - For windows 
-  - Transfers con
-- UEFI installer –  - Requirements WIN has this so far
-- Disk partition and Disk formats - need GPT  / FAT32 disk format
-- Firmware requirements
-- Boot manager
-- BIOS Setup
-- Nvram Large enough to store device path
-
-- After installation, set boot path to boot to OS as default system behavior
-
- 
-+++?image=/assets/images/slides/Slide12.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[UEFI OS Requirements 02]
-#### <p align="right"><span class="gold" >UEFI OS Requirements</span></p>
-  
-Note:
- 
-
-+++?image=/assets/images/slides/Slide13.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[UEFI OS Requirements 03]
-#### <p align="right"><span class="gold" >UEFI OS Requirements</span></p>
-  
-Note:
- 
-+++?image=/assets/images/slides/Slide14.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[UEFI OS Requirements 04]
-#### <p align="right"><span class="gold" >UEFI OS Requirements</span></p>
-  
-Note:
- 
-+++?image=/assets/images/slides/Slide15.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[UEFI OS Requirements 05]
-#### <p align="right"><span class="gold" >UEFI OS Requirements</span></p>
-  
-Note:
- 
-+++?image=/assets/images/slides/Slide16.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[UEFI OS Requirements 06]
-#### <p align="right"><span class="gold" >UEFI OS Requirements</span></p>
-  
-Note:
-
 - What is the list of things you need to have in the BIOS/ FW?
 - UEFI drivers for boot devices and console – storage devices / 
 - UEFI loader need / Elilo for Linux - / RH published need to be there
