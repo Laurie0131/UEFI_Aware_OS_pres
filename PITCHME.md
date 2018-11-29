@@ -286,44 +286,6 @@ Make sure the “class” terminology is understood here before moving on
 
 
 
-
----?image=/assets/images/slides/Slide27.JPG
-<!-- .slide: data-transition="none" -->
-@title[Required UEFI Drivers: OS Install & Boot]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>Required UEFI Drivers:&nbsp;&nbsp;</b></span><span style="font-size:0.8em" ><font color="#FFC000">OS Install & Boot<font></span></p>
-
-Note:
-- Boot Device: hard drive controller, USB, RAID, Fiber Channel, network, etc. 
-- Console Output: Graphics Output Protocol (GOP) or Serial Console (COM port)
-- Console Input: Keyboard, Mouse, Touch Screen or Serial Console (COM)
-- NVRAM Driver – store boot entry for OS in flash or other NVRAM (not part of boot disk partition)
-
-
-
-+++?image=/assets/images/slides/Slide28.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Required UEFI Drivers: OS Install & Boot 02]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>Required UEFI Drivers:&nbsp;&nbsp;</b></span><span style="font-size:0.8em" ><font color="#FFC000">OS Install & Boot<font></span></p>
-
-Note:
-
-
-+++?image=/assets/images/slides/Slide29.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Required UEFI Drivers: OS Install & Boot 03]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>Required UEFI Drivers:&nbsp;&nbsp;</b></span><span style="font-size:0.8em" ><font color="#FFC000">OS Install & Boot<font></span></p>
-
-Note:
-
-
-+++?image=/assets/images/slides/Slide30.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Required UEFI Drivers: OS Install & Boot 04]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>Required UEFI Drivers:&nbsp;&nbsp;</b></span><span style="font-size:0.8em" ><font color="#FFC000">OS Install & Boot<font></span></p>
-
 Note:
 - Boot Device: hard drive controller, USB, RAID, Fiber Channel, network, etc. 
 - Console Output: Graphics Output Protocol (GOP) or Serial Console (COM port)
@@ -334,15 +296,23 @@ Note:
 ---
 @title[UEFI OS Loader/Installer]
 #### <p align="right"><span class="gold" >UEFI OS Loader</span></p>
+@snap[north-west span-100 fragment]
 @fa[circle gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;OS install process includes UEFI loader<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:0.7em"><font face="Courier New" color="#FFFF00">/efi/boot/bootx64.efi    /efi/redhat/grub.efi</font></span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:0.7em"><font face="Consolas" color="#FFFF00">/efi/boot/bootx64.efi    /efi/redhat/grub.efi</font></span><br>
 @fa[circle gp-bullet-gold]<span style="font-size:0.9em">&nbsp;&nbsp;Call UEFI boot & runtime services to start OS</span> <br>
 @fa[circle gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Exit UEFI Boot Services</span><br>
 @fa[circle gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Transfer control to native OS</span><br>
+
+@snap[east span-60 fragment]
 #### <p align="right"><span class="gold" >UEFI OS Installer</span></p>
+@snapend
+
+@snap[west span-100 fragment]
+@css[text-yellow]( <br>&nbsp;)
 @fa[circle gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Discover UEFI storage devices</span> <br>
 @fa[circle gp-bullet-gold]<span style="font-size:0.9em">&nbsp;&nbsp;Setup storage device: GPT w/ FAT32 boot partition</span> <br>
-@fa[circle gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Create boot variable &nbsp;&nbsp;<font face="Courier New" color="#FFFF00">BootXXXX</fon></span><br>
+@fa[circle gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Create boot variable &nbsp;&nbsp;<font face="Consolas" color="#FFFF00">BootXXXX</fon></span><br>
+@snapend
 
 Note:
 
