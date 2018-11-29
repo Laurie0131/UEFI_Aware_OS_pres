@@ -596,26 +596,20 @@ PCRs are registers in the TPM that are cleared only at hardware reset, and canno
 </table>
 
 @snap[south-west span-45 fragment]
-@box[bg-purple text-white rounded  ](<span style="font-size:01.50em" > Verification&nbsp;</span>)
+@box[bg-purple text-white rounded  ](<span style="font-size:01.50em" ><b> Verification</b>&nbsp;</span>)
 <br>
 <br>
 
 @snapend
 
 @snap[south-east span-45 fragment]
-@box[bg-purple text-white rounded  ](<span style="font-size:01.50em" > Measurements&nbsp;</span>)
+@box[bg-purple text-white rounded  ](<span style="font-size:01.50em" > <b>Measurements</b>&nbsp;</span>)
 <br>
 <br>
 
 @snapend
 
 
----?image=/assets/images/slides/Slide38.JPG
-<!-- .slide: data-transition="none" -->
-@title[Hardware root of Trust ]
-#### <p align="right"><span class="gold" >Hardware root of Trust </span></p>
-
-
 Note:
 
 #### Intel Boot Guard: 
@@ -626,21 +620,6 @@ This has genuine security benefits. It's no longer possible for an attacker to s
 #### Intel TXT Trusted Execution Technology 
 TXT - uses a Trusted Platform Module (TPM) and cryptographic techniques to provide measurements of software and platform components so that system software as well as local and remote management applications may use those measurements to make trust decisions. This technology is based on an industry initiative by the Trusted Computing Group (TCG) to promote safer computing. It defends against software-based attacks aimed at stealing sensitive information by corrupting system or BIOS code, or modifying the platform's configuration.
 
-+++?image=/assets/images/slides/Slide39.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Hardware root of Trust ]
-### <p align="right"><span class="gold" >Hardware root of Trust </span></p>
-
-Note:
-
-#### Intel Boot Guard: 
-With Intel Boot Guard, the CPU verifies a signature on flash code before executing. The hash of the public half of the signing key is flashed into fuses on the CPU. It is the system vendor that owns this key and chooses to flash it into the CPU, not Intel. 
-This has genuine security benefits. It's no longer possible for an attacker to simply modify or replace the firmware - they have to find some other way to trick it into executing arbitrary code, and over time these will be closed off. But in the process, the system vendor has prevented the user from being able to make an informed choice to replace their system firmware
-
-
-#### Intel TXT Trusted Execution Technology 
-TXT - uses a Trusted Platform Module (TPM) and cryptographic techniques to provide measurements of software and platform components so that system software as well as local and remote management applications may use those measurements to make trust decisions. This technology is based on an industry initiative by the Trusted Computing Group (TCG) to promote safer computing. It defends against software-based attacks aimed at stealing sensitive information by corrupting system or BIOS code, or modifying the platform's configuration.
 
 ---?image=/assets/images/slides/Slide41.JPG
 <!-- .slide: data-transition="none" -->
