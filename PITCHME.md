@@ -123,24 +123,27 @@ Boot to OS with UEFI Services available
 
 @snap[north span-35]
 @css[text-yellow](<br> <br>&nbsp;)
-@box[bg-gray text-white waved ](<b>UEFI OS Installer</b>)
+@box[bg-gray text-white waved ](<b>UEFI OS Installer</b><br>&nbsp;)
 @snapend
 
 @snap[north-east span-35]
 @css[text-yellow](<br> <br>&nbsp;)
-@box[bg-green text-white waved ](<b>UEFI OS Loader</b><br>)
+@box[bg-green text-white waved ](<b>UEFI OS Loader</b><br><br>&nbsp;)
 @snapend
 
 @snap[south-west span-35]
-@box[bg-yellow text-blue  waved ](<b>Disk Partition/formats</b><br>)
+@box[bg-yellow text-blue  waved ](<b>Disk Partition/formats</b><br><br>&nbsp;)
+@css[text-yellow](<br> <br>&nbsp;)
 @snapend
 
 @snap[south span-35]
 @box[bg-orange text-white waved ](<b>Firmware Requirements</b><br><br>)
+@css[text-yellow](<br> <br>&nbsp;)
 @snapend
 
 @snap[south-east span-35]
-@box[bg-purple text-white waved ](<b>Set Boot Path to Boot UEFI OS</b><br>)
+@box[bg-purple text-white waved ](<b>Set Boot Path to Boot UEFI OS</b><br><br>&nbsp;)
+@css[text-yellow](<br> <br>&nbsp;)
 @snapend
 
 
