@@ -388,10 +388,16 @@ Os loader needs to be here
 
 Note:
 
+As seen on this slide , Only Runtime services are available during the UEFI aware OS.  
+
+Boot services are no longer available after the OS Loader calls ExitBootServices().
+
+It is the responsibility of the OS Loader to call ExitBootServices() event.  
 ---
 
 @title[Accessing RT Services from Windows ]
-### <p align="right"><span class="gold" >Accessing RT services from Windows API</span></p>
+#### <p align="right"><span class="gold" >@fa[windows gp-bullet-cyan] &nbsp;&nbsp; Accessing RT services from Windows API</span></p>
+@fa[windows gp-bullet-cyan]
 
 - <span style="font-size:0.8em" >GetFirmwareEnvironmentVariable: <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms724325(v=vs.85).aspx">MSDN Link</a></span>
 - <span style="font-size:0.8em" >SetFirmwareEnvironmentVariable: <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms724934(v=vs.85).aspx">MSDN Link</a></span>
@@ -417,6 +423,10 @@ Note:
 Note:
 
 - Code example:
+
+This is just a code example of an application written for Windows
+
+The links will help to find more actual examples
 
 <pre>
 
@@ -472,7 +482,7 @@ Note:
 
 @title[Accessing RT Services from Linux ]
 <br>
-### <p align="right"><span class="gold" >Accessing RT services from Linux </span></p>
+#### <p align="right"><span class="gold" >@fa[linux gp-bullet-gold] &nbsp;&nbsp; Accessing RT services from Linux </span></p>
 
 <span style="font-size:0.9em" > Firmware Test Suite, it includes a Linux kernel driver to help with it's interactions with UEFI. Note that this is a Linux-centric test suite, solution won't work for other OSes.</span>
 - <span style="font-size:0.8em" > http://kernel.ubuntu.com/git/hwe/fwts.git</span>
