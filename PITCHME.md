@@ -123,7 +123,7 @@ Boot to OS with UEFI Services available
 
 @snap[north span-35 fragment]
 @css[text-yellow](<br> <br>&nbsp;<br>&nbsp;)
-@box[bg-pink text-white waved ](<b>UEFI OS Installer</b><br>&nbsp;)
+@box[bg-cyan text-white waved ](<b>UEFI OS Installer</b><br>&nbsp;)
 @snapend
 
 @snap[north-east span-35 fragment]
@@ -145,11 +145,6 @@ Boot to OS with UEFI Services available
 @box[bg-purple text-white waved ](<b>Set Boot Path to Boot UEFI OS</b>)
 @css[text-yellow]( <br>&nbsp;)
 @snapend
-
-<p><v:rect id="_x0000_s1025"
- style='position:absolute;left:17.25pt;top:85.5pt;width:64.5pt;height:45pt;
- z-index:1' fillcolor="#11eed8" stroked="f" strokecolor="none"/></p>
-
 
 
  

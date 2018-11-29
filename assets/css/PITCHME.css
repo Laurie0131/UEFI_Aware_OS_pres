@@ -292,6 +292,8 @@ h6 {
     list-style-position: outside !important;
 }
 
+.bg-cyan { color: #00FFFF; !important;}
+
 .cyan {
   color: #00FFFF;
 }
