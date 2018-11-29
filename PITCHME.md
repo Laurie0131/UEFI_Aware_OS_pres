@@ -560,26 +560,10 @@ Note:
 @snapend
 
 
----?image=/assets/images/slides/Slide36.JPG
-@title[Boot Security Technologies]
-### <p align="right"><span class="gold" >Boot Security Technologies</span></p>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<span style="font-size:0.5em" >Resources: https://firmwaresecurity.com/2015/07/29/survey-of-boot-security-technologies/ </span>
-
 Note:
 #### Intel Boot Guard: 
-When your CPU starts up, it reads some code out of flash and executes it. With Intel Boot Guard, the CPU verifies a signature on that flash code before executing the reset vector
+When your CPU starts up, it reads some code out of flash and executes it. 
+With Intel Boot Guard, the CPU verifies a signature on that flash code before executing the reset vector
 
 #### Intel TXT Trusted Execution Technology 
 
@@ -596,11 +580,34 @@ In the case of Measure Boot, the Trusted Platform Module is used to record these
 
 PCRs are registers in the TPM that are cleared only at hardware reset, and cannot be directly written
 
+---
+@title[Hardware root of Trust ]
+#### <p align="right"><span class="gold" >Hardware root of Trust </span></p>
+
+<table id="recTable">
+	<tr>
+		<td><bBoot Guard</b></td>
+		<td><b>Intel&reg; TXT </b></td>
+	</tr>
+	<tr>
+		<td><span style="font-size:0.80em" >CPU verifies signature<br>Verification occurs before BIOS starts<br>Hash of signature is fused in CPU&nbsp;</span></td>
+		<td><span style="font-size:0.80em" >Uses a Trusted Platform Module (TPM) & cryptographic <br>Provides Measurements&nbsp;</span></td>
+	</tr>
+</table>
+
+@snap[south-west span-50 fragment]
+@box[bg-purple text-white rounded  ]( Verification&nbsp;)
+@snapend
+
+@snap[south-east span-50 fragment]
+@box[bg-purple text-white rounded  ]( Measurements&nbsp;)
+@snapend
+
 
 ---?image=/assets/images/slides/Slide38.JPG
 <!-- .slide: data-transition="none" -->
 @title[Hardware root of Trust ]
-### <p align="right"><span class="gold" >Hardware root of Trust </span></p>
+#### <p align="right"><span class="gold" >Hardware root of Trust </span></p>
 
 
 Note:
