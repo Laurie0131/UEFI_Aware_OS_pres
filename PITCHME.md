@@ -266,22 +266,22 @@ Make sure the “class” terminology is understood here before moving on
 
 @snap[north-west span-45 fragment]
 @css[text-yellow](<br><br>&nbsp; <br>&nbsp;)
-@box[bg-blue text-white  rounded  ](<span style="font-size:01.2em" ><b>Boot device<b></span><br>&nbsp;)
+@box[bg-blue text-white  rounded  ](<span style="font-size:01.52em" ><b>Boot device<b></span><br>&nbsp;)
 @snapend
 
 @snap[north-east span-45 fragment]
 @css[text-yellow](<br><br>&nbsp; <br>&nbsp;)
-@box[bg-pink text-white rounded ](<span style="font-size:01.2em" ><b>Console Output</b></span><br>&nbsp;)
+@box[bg-pink text-white rounded ](<span style="font-size:01.52em" ><b>Console Output</b></span><br>&nbsp;)
 @snapend
 
 @snap[south-west span-45 fragment]
-@box[bg-yellow text-blue  rounded ](<span style="font-size:01.2em" ><b>Console Input</b></span>)
-@css[text-yellow]( <br>&nbsp;<br>&nbsp;)
+@box[bg-yellow text-blue  rounded ](<span style="font-size:01.52em" ><b>Console Input</b></span><br>&nbsp;)
+@css[text-yellow]( <br>&nbsp;<br>&nbsp;<br>&nbsp;)
 @snapend
 
 @snap[south-east span-45 fragment]
-@box[bg-purple text-white rounded ](<span style="font-size:01.2em" ><b>NVRam Driver</b></span>)
-@css[text-yellow]( <br>&nbsp;<br>&nbsp;)
+@box[bg-purple text-white rounded ](<span style="font-size:01.52em" ><b>NVRam Driver</b></span><br>&nbsp;)
+@css[text-yellow]( <br>&nbsp;<br>&nbsp;<br>&nbsp;)
 @snapend
 
 
