@@ -545,7 +545,7 @@ Note:
 </table>
 
 @snap[south-west span-100]
-<span style="font-size:0.5em" >Resources: https://firmwaresecurity.com/2015/07/29/survey-of-boot-security-technologies/</span>
+<span style="font-size:0.5em" >Resources: <a href="https://firmwaresecurity.com/2015/07/29/survey-of-boot-security-technologies/">survey of boot security at firmwaresecurity.com </a></span>
 @snapend
 
 @snap[south-east span-100]
