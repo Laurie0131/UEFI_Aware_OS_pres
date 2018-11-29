@@ -1,6 +1,8 @@
 ---?image=assets/images/gitpitch-audience.jpg
 @title[Platform Build Lab]
-<br><br><br><br><br>
+<br><br>
+<span style="font-size:0.75em" >This slide deck has moved to:  https://gitpitch.com/tianocore-training/UEFI_Aware_OS_Pres/master#/</span>
+<br><br><br>
 ## <span class="gold"   >UEFI & EDK II Training</span>
 
 #### UEFI Aware Operating System 
@@ -101,7 +103,7 @@ Review -Boot Execution Flow
 +++?image=/assets/images/slides/Slide9.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
-@title[UEFI Boot Flow review 09]
+@title[UEFI Boot Flow review 04]
 <p align="right"><span class="gold" ><b> UEFI - PI & EDK II Boot Flow </b></span><span style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<b>Review</b> </span></p>
  
 Note:
@@ -109,6 +111,40 @@ Review -Boot Execution Flow
 
 Boot to OS with UEFI Services available
 
+
+---
+@title[UEFI OS Requirements]
+#### <p align="right"><span class="gold" >UEFI OS Requirements</span></p>
+
+@snap[north-west span-35 fragment]
+@css[text-yellow](<br> <br>&nbsp;)
+@box[bg-blue text-white  waved  ](<b>UEFI Drivers:</b> Boot devices/console)
+@snapend
+
+@snap[north span-35]
+@css[text-yellow](<br> <br>&nbsp;)
+@box[bg-gray text-white waved ](<b>UEFI OS Installer</b>)
+@snapend
+
+@snap[north-east span-35]
+@css[text-yellow](<br> <br>&nbsp;)
+@box[bg-green text-white waved ](<b>UEFI OS Loader</b><br>)
+@snapend
+
+@snap[south-west span-35]
+@box[bg-yellow text-blue  waved ](<b>Disk Partition/formats</b><br>)
+@snapend
+
+@snap[south span-35]
+@box[bg-orange text-white waved ](<b>Firmware Requirements</b><br><br>)
+@snapend
+
+@snap[south-east span-35]
+@box[bg-purple text-white waved ](<b>Set Boot Path to Boot UEFI OS</b><br>)
+@snapend
+
+
+ 
 
 ---?image=/assets/images/slides/Slide11.JPG
 <!-- .slide: data-transition="none" -->
