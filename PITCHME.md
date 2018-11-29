@@ -590,8 +590,8 @@ PCRs are registers in the TPM that are cleared only at hardware reset, and canno
 		<td bgcolor="#121212" width="50%"><b>Intel&reg; TXT </b></td>
 	</tr>
 	<tr>
-		<td bgcolor="#323232"><span style="font-size:0.75em" >CPU verifies signature<br><br>Verification occurs before BIOS starts<br><br>Hash of signature is fused in CPU&nbsp;</span></td>
-		<td bgcolor="#323232" width="50%"><span style="font-size:0.75em" >Uses a Trusted Platform Module (TPM) & cryptographic <br><br>Provides Measurements&nbsp;</span></td>
+		<td><span style="font-size:0.75em" >CPU verifies signature<br><br>Verification occurs before BIOS code starts<br><br>Hash of signature is fused in CPU&nbsp;</span></td>
+		<td width="50%"><span style="font-size:0.75em" >Uses a Trusted Platform Module (TPM) & cryptographic <br><br>Provides Measurements&nbsp;</span></td>
 	</tr>
 </table>
 
@@ -599,14 +599,14 @@ PCRs are registers in the TPM that are cleared only at hardware reset, and canno
 @box[bg-purple text-white rounded  ](<span style="font-size:01.50em" > Verification&nbsp;</span>)
 <br>
 <br>
-<br>
+
 @snapend
 
 @snap[south-east span-45 fragment]
 @box[bg-purple text-white rounded  ](<span style="font-size:01.50em" > Measurements&nbsp;</span>)
 <br>
 <br>
-<br>
+
 @snapend
 
 
