@@ -787,7 +787,7 @@ Unauthorized Signing certificates - Black list
    <p align="center"><span style="font-size:01.2em" ><font color="yellow"><b> </b></font></span></p>
 </div>
 
-@snap[north-east span-45 fragment]
+@snap[north-east span-40 fragment]
 <br>
 <br>
 <br>
