@@ -265,7 +265,7 @@ Make sure the “class” terminology is understood here before moving on
 
 
 @snap[north-west span-45 fragment]
-@css[text-yellow](<br><br>&nbsp; <br>&nbsp;)
+@css[text-yellow](<br>&nbsp; <br>&nbsp;)
 @box[bg-blue text-white  rounded  ](<span style="font-size:01.52em" ><b>Boot device<b></span><br>&nbsp;)
 @snapend
 
@@ -281,7 +281,7 @@ Make sure the “class” terminology is understood here before moving on
 
 @snap[south-east span-45 fragment]
 @box[bg-purple text-white rounded ](<span style="font-size:01.52em" ><b>NVRam Driver</b></span><br>&nbsp;)
-@css[text-yellow]( <br>&nbsp;<br>&nbsp;)
+@css[text-yellow]( <br>&nbsp;)
 @snapend
 
 
