@@ -543,14 +543,16 @@ Note:
 		<td><span style="font-size:0.80em" >Boot Guard &nbsp;&nbsp; + <br>UEFI Secure Boot &nbsp;</span></td>
 	</tr>
 </table>
-
-@snap[south-west span-100]
-<span style="font-size:0.5em" >Resources: <a href="https://firmwaresecurity.com/2015/07/29/survey-of-boot-security-technologies/">survey of boot security at firmwaresecurity.com </a></span>
-@snapend
+<br>
+<br>
+<br>
+<br>
+<span style="font-size:0.5em" >Resources: https://firmwaresecurity.com/2015/07/29/survey-of-boot-security-technologies/ </span>
 
 @snap[south-east span-100]
 <span style="font-size:0.45em" ><sup>1</sup>TPM - Trusted Platform Module<br><br></span>
 @snapend
+
 
 ---?image=/assets/images/slides/Slide36.JPG
 @title[Boot Security Technologies]
