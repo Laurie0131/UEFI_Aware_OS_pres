@@ -339,6 +339,9 @@ table#recTable{width:100%; border:1px solid gray;}
 .bg-yellow-pp { background: #ffff00 !important; }
 .bg-cream  { background: #FFFF99 !important; }
 
+/* yellow gp # 245 219 46  #f5db25
+*/
+
 /*#4487f2 blue gp
 */
 .bg-lt-blue-pp { background: #00b0f0 !important; }
@@ -347,7 +350,7 @@ table#recTable{width:100%; border:1px solid gray;}
 .bg-navy { background: #002060 !important; }
 
 
-.bg-green-pp { background: #92d050 !important; }
+.bg-green-pp { background: #92d050 !important; }35
 
 
 .bg-white { background: #ffffff!important; }
