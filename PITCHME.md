@@ -184,7 +184,7 @@ Note:
 @css[text-yellow]( &nbsp;)
 @snapend
 
-@snap[south-east span-50 fragment]
+@snap[south-east span-55 fragment]
 @box[bg-grey-50 text-black](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;<b>Limited Benefits</b></span><span style="font-size:0.6em" ><br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;OEMs/ODMs Internal <br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;Double code development <br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;Coompromised security <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - MBR exposure<br>&nbsp;</span></p>)
 @css[text-yellow]( &nbsp;)
 @snapend
@@ -294,7 +294,7 @@ Make sure the “class” terminology is understood here before moving on
 @snapend
 
 @snap[south-east span-45 fragment]
-@box[bg-purple text-white rounded ](<span style="font-size:01.52em" ><b>NVRam Driver</b></span><br>&nbsp;)
+@box[bg-pink text-white rounded ](<span style="font-size:01.52em" ><b>NVRam Driver</b></span><br>&nbsp;)
 
 @snapend
 
