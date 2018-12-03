@@ -235,19 +235,20 @@ Note:
 
 @snap[north-east span-45 fragment]
 @css[text-yellow](<br>&nbsp; <br>&nbsp;)
-@box[bg-royal text-white   ](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>UEFI Class 3 color[yellow](+)</b></span><span style="font-size:0.6em" ><br><br>&nbsp;&nbsp;&nbsp;&nbsp;Boots <b>Only</b> UEFI<br>&nbsp;&nbsp;&nbsp;&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;&nbsp;&nbsp;&nbsp;Only runtime UEFI intefaces<br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@box[bg-royal text-white   ](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>UEFI Class 3 @color[yellow](+)</b></span><span style="font-size:0.6em" ><br><br>&nbsp;&nbsp;&nbsp;&nbsp;Boots <b>Only</b> UEFI<br>&nbsp;&nbsp;&nbsp;&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;&nbsp;&nbsp;&nbsp;Only runtime UEFI intefaces<br><br><br><br><br><br><br><br>&nbsp;</span></p>)
 @snapend
 
 
 @snap[south-west span-45 fragment]
-<p align="left" style="line-height:60%">@color[yellow](<b>Only Class after 2020</b>)<span style="font-size:0.6em" ><br>&nbsp;&nbsp;&nbsp;&nbsp;Enabling <b>Secure Boot</b> creates another class&nbsp;</span></p>)
-@css[text-yellow]( &nbsp;)
+<p align="left" style="line-height:60%">&nbsp;&nbsp;@color[yellow](<b>Only Class after 2020</b>)<span style="font-size:0.6em" ><br>&nbsp;&nbsp;&nbsp;&nbsp;Enabling <b>Secure Boot</b> creates another class&nbsp;</span></p>
+<br><br>&nbsp;
 @snapend
 
 
-@snap[midpoint span-45 fragment]
+@snap[south-east span-45 fragment]
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;<b>UEFI Secure Boot "ON"</b>)&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="font-size:01.25em" >@color[#ff00ff](&#8681;)</span>&nbsp;&nbsp;&nbsp;&nbsp;@color[white](<b>UEFI Secure Boot "ON"</b>)&nbsp;&nbsp;&nbsp;&nbsp;
+<br><br>&nbsp;
 @snapend
  
  
