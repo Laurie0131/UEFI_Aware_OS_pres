@@ -768,19 +768,15 @@ Note:
 <br>
 <br>
 @box[bg-royal text-white  rounded ](<span style="font-size:01.2em" ><b>PK</b></span>)
-@snapend
-
-
-@snap[north-west span-35 fragment]
-<br>
-<br>
-<br>
-<br>
 <br>
 @box[bg-gold2 text-white  rounded ](<span style="font-size:01.2em" ><b>KEK</b></span>)
 @snapend
 
+
+
+
 @snap[north-west span-40 fragment]
+<br>
 <br>
 <br>
 <br>
