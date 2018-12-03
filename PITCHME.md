@@ -118,7 +118,7 @@ Boot to OS with UEFI Services available
 
 @snap[north-west span-35 fragment]
 @css[text-yellow](<br><br>&nbsp; <br>&nbsp;)
-@box[bg-lt-blue-pp text-white  waved  ](<b>UEFI Drivers:</b> Boot devices/console<br>&nbsp)
+@box[bg-lt-blue-pp text-white  waved  ](<b>UEFI Drivers:</b> Boot devices/console<br>&nbsp;)
 @snapend
 
 @snap[north span-35 fragment]
