@@ -1024,7 +1024,8 @@ Note:
 ---?image=/assets/images/slides/Slide68_1.JPG
 @title[Why MMI Vulnerabilities )]
 <p align="right"><span class="gold" ><b>Why are Software MMI Vulnerabilities Dangerous?</b></span></p>
-@snap[north-west span-50 fragment ]
+@snap[north-west span-60 fragment ]
+<br>
 <br>
 <b><i>@color[yellow](Because . . .)</i></b><br>
 <span style="font-size:0.9em" >Software MMIs can be asked to perform: </span>
