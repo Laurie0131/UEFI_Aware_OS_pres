@@ -1017,10 +1017,31 @@ Note:
   - BIOS vendor applications (flash utilities, setup access)
   - OEM/ODM applications 
 
+  
+  
 ---?image=/assets/images/slides/Slide68_1.JPG
 @title[Why MMI Vulnerabilities )]
 <p align="right"><span class="gold" ><b>Why are Software MMI Vulnerabilities Dangerous?</b></span></p>
 <br>
+  
+---?image=/assets/images/slides/Slide68_1.JPG
+@title[Why MMI Vulnerabilities )]
+<p align="right"><span class="gold" ><b>Why are Software MMI Vulnerabilities Dangerous?</b></span></p>
+@snap[north-east span-50 fragment ]
+<br>
+<b><i>@color[yellow](Because . . .)</i></b><br>
+<span style="font-size:0.9em" >Software MMIs can be asked to perform: </span>
+<ul>
+<li><span style="font-size:0.8em" >Privileged operations: </span><span style="font-size:0.6em" ><font color="#87E2A9">Flash BIOS, flash EC, write to MMIO, write to MMRAM, etc. </font></span></li>
+<li><span style="font-size:0.8em" >Overwrite OS code/data </span></li>
+<li><span style="font-size:0.8em" >Copy protected OS data to another unprotected location </span></li>
+<li><span style="font-size:0.8em" >Copy protected firmware data to another unprotected location</span></li>
+<li><span style="font-size:0.8em" >Overwrite BIOS code/data  </span></li>
+</ul>
+
+@snapend
+
+
 
 Note: 
 
