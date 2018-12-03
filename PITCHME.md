@@ -757,12 +757,23 @@ Note:
 @title[Authenticated Variables]
 ### <p align="right"><span class="gold" >Authenticated Variables</span></p>
 
+@snap[north-west span-45]
+<br>
+<br>
+@box[bg-grey-50 text-white  rounded ](<span style="font-size:01.2em" ><b>&nbsp;</b></span> <br><br><br><br><br><br><br><br><br><br> )
+@snapend
+
+
 @snap[north-west span-30]
+<br>
 <br>
 @box[bg-royal text-white  rounded ](<span style="font-size:01.2em" ><b>PK</b></span>)
 @snapend
 
+
 @snap[north-west span-40]
+<br>
+<br>
 <br>
 <br>
 @box[bg-gold2 text-white  rounded ](<span style="font-size:01.2em" ><b>KEK</b></span>)
@@ -772,10 +783,18 @@ Note:
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 @box[bg-white text-black  rounded ](<span style="font-size:01.2em" ><b>DB</b></span>)
 @snapend
 
 @snap[north-west span-40]
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
