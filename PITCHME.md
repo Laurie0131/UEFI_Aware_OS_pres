@@ -800,8 +800,6 @@ Note:
 <br>
 <br>
 <br>
-<br>
-<br>
 @box[bg-navy text-white  rounded ](<span style="font-size:01.2em" ><b>`SetupMode`</b></span>)
 <br>
 @box[bg-red-pp text-white  rounded ](<span style="font-size:01.2em" ><b>`SecureBoot`</b></span>)
