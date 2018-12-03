@@ -838,10 +838,6 @@ Note:
 ![SecureBoot](/assets/images/SecureBoot_shell.png)
 @snapend
 
----?image=/assets/images/slides/Slide48.JPG
-@title[Authenticated Variables]
-### <p align="right"><span class="gold" >Authenticated Variables</span></p>
-
 Note:
 
 ### PK
