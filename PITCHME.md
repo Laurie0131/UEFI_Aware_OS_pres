@@ -170,21 +170,21 @@ Note:
 
 @snap[north-west span-45 fragment]
 @css[text-yellow](<br>&nbsp; <br>&nbsp;)
-@box[bg-brick text-white    ](<span style="font-size:01.5em" ><b>UEFI Class 0</b></span><p align="left" style="line-height:60%"><span style="font-size:0.5em" >&nbsp;&nbsp;&nbsp;&nbsp;Boots Legacy - int 19 ONLY<br>&nbsp;&nbsp;&nbsp;&nbsp;Legacy BIOS &lpar;16 bit&rpar;<br>&nbsp;&nbsp;&nbsp;&nbsp;No UEFI Interfaces<br>&nbsp;</span></p>)
+@box[bg-brick text-white    ](<span style="font-size:01.5em" ><b>UEFI Class 0</b></span><p align="left" style="line-height:60%"><span style="font-size:0.6em" >&nbsp;&nbsp;&nbsp;&nbsp;Boots Legacy - int 19 ONLY<br>&nbsp;&nbsp;&nbsp;&nbsp;Legacy BIOS &lpar;16 bit&rpar;<br>&nbsp;&nbsp;&nbsp;&nbsp;No UEFI Interfaces&nbsp;</span></p>)
 @snapend
 
 @snap[north-east span-45 fragment]
 @css[text-yellow](<br>&nbsp; <br>&nbsp;)
-@box[bg-green-pp text-white  ](<span style="font-size:01.5em" ><b>UEFI Class 1</b></span><p align="left" style="line-height:60%"><span style="font-size:0.5em" >&nbsp;&nbsp;&nbsp;&nbsp;Boots Legacy - int 19 ONLY<br>&nbsp;&nbsp;&nbsp;&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;&nbsp;&nbsp;&nbsp;Only legacy BIOS <b>runtime</b> inteface<br>&nbsp;</span></p>)
+@box[bg-green-pp text-white  ](<span style="font-size:01.5em" ><b>UEFI Class 1</b></span><p align="left" style="line-height:60%"><span style="font-size:0.6em" >&nbsp;&nbsp;&nbsp;&nbsp;Boots Legacy - int 19 ONLY<br>&nbsp;&nbsp;&nbsp;&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;&nbsp;&nbsp;&nbsp;Only legacy BIOS <b>runtime</b> inteface&nbsp;</span></p>)
 @snapend
 
 @snap[south-west span-45 fragment]
-@box[bg-purple-pp text-white   ](<span style="font-size:01.5em" ><b>UEFI Class 2</b></span><p align="left" style="line-height:60%"><span style="font-size:0.5em" >&nbsp;&nbsp;&nbsp;&nbsp;Boots Legacy - int 19 or UEFI<br>&nbsp;&nbsp;&nbsp;&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;&nbsp;&nbsp;&nbsp;legacy BIOS runtime inteface w/ <b>CSM</b><br>&nbsp;</span></p>)
+@box[bg-purple-pp text-white   ](<span style="font-size:01.5em" ><b>UEFI Class 2</b></span><p align="left" style="line-height:60%"><span style="font-size:0.6em" >&nbsp;&nbsp;&nbsp;&nbsp;Boots Legacy - int 19 or UEFI<br>&nbsp;&nbsp;&nbsp;&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;&nbsp;&nbsp;&nbsp;legacy BIOS runtime inteface w/ <b>CSM</b>&nbsp;</span></p>)
 @css[text-yellow]( &nbsp;)
 @snapend
 
 @snap[south-east span-45 fragment]
-@box[bg-grey-50 text-black](<span style="font-size:01.5em" ><b>Limited Benefits</b></span><p align="left" style="line-height:60%"><span style="font-size:0.5em" >&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp;OEMs/ODMs Internal <br>&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp;Double code development <br>&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp;Coompromised security - MBR exposure<br>&nbsp;</span></p>)
+@box[bg-grey-50 text-black](<span style="font-size:01.5em" ><b>Limited Benefits</b></span><p align="left" style="line-height:60%"><span style="font-size:0.6em" >&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp;OEMs/ODMs Internal <br>&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp;Double code development <br>&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp;Coompromised security - MBR exposure&nbsp;</span></p>)
 @css[text-yellow]( &nbsp;)
 @snapend
 
