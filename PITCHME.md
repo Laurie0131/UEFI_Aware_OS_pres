@@ -776,10 +776,12 @@ Note:
 <br>
 <br>
 <br>
+<br>
 @box[bg-gold2 text-white  rounded ](<span style="font-size:01.2em" ><b>KEK</b></span>)
 @snapend
 
 @snap[north-west span-40]
+<br>
 <br>
 <br>
 <br>
@@ -798,7 +800,36 @@ Note:
 <br>
 <br>
 <br>
+<br>
 @box[bg-black text-white  rounded ](<span style="font-size:01.2em" ><b>DBX</b></span>)
+@snapend
+
+
+
+@snap[north-east span-40]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+@box[bg-navy text-white  rounded ](<span style="font-size:0.8em" ><b>`SetupMode`</b></span>)
+@snapend
+
+@snap[north-east span-40]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+@box[bg-pink text-white  rounded ](<span style="font-size:0.8em" ><b>`SecureBoot`</b></span>)
 @snapend
 
 
