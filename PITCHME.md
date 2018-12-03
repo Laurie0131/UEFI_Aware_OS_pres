@@ -777,6 +777,8 @@ Note:
 <br>
 <br>
 <br>
+<br>
+<br>
 @box[bg-gold2 text-white  rounded ](<span style="font-size:01.2em" ><b>KEK</b></span>)
 @snapend
 
@@ -788,7 +790,9 @@ Note:
 <br>
 <br>
 <br>
-@box[bg-white text-black  rounded ](<span style="font-size:01.2em" ><b>DB</b></span>)
+<br>
+<br>
+@box[bg-white text-black  rounded ](<span style="font-size:01.5em" ><b>DB</b></span>)
 @snapend
 
 @snap[north-west span-40]
@@ -801,7 +805,9 @@ Note:
 <br>
 <br>
 <br>
-@box[bg-black text-white  rounded ](<span style="font-size:01.2em" ><b>DBX</b></span>)
+<br>
+<br>
+@box[bg-black text-white  rounded ](<span style="font-size:01.5em" ><b>DBX</b></span>)
 @snapend
 
 
@@ -818,7 +824,6 @@ Note:
 @snapend
 
 @snap[north-east span-40]
-<br>
 <br>
 <br>
 <br>
