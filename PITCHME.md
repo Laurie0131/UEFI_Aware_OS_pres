@@ -212,16 +212,30 @@ Note:
 @css[text-yellow]( &nbsp;)
 @snapend
 
-@snap[south-east span-45]
-@box[bg-grey-50 text-black](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;<b>Limited Benefits</b></span><span style="font-size:0.6em" ><br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;OEMs/ODMs Internal <br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;Double code development <br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;Coompromised security <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - MBR exposure&nbsp;</span></p>)
+
+@snap[south-east span-45 ]
+@box[bg-royal text-white   ](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>UEFI Class 3</b></span><span style="font-size:0.6em" ><br>&nbsp;&nbsp;&nbsp;&nbsp;Boots <b>Only</b> UEFI<br>&nbsp;&nbsp;&nbsp;&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;&nbsp;&nbsp;&nbsp;Only runtime UEFI intefaces<br>&nbsp;</span></p>)
 @css[text-yellow]( &nbsp;)
 @snapend
 
-@snap[south-east span-45 fragment]
-@box[bg-roayl text-white   ](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>UEFI Class 3</b></span><span style="font-size:0.6em" ><br>&nbsp;&nbsp;&nbsp;&nbsp;Boots <b>Only</b> UEFI<br>&nbsp;&nbsp;&nbsp;&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;&nbsp;&nbsp;&nbsp;Only runtime UEFI intefaces<br>&nbsp;</span></p>)
-@css[text-yellow]( &nbsp;)
++++
+<!-- .slide: data-background-transition="none" -->
+<!-- .slide: data-transition="none" -->
+@title[UEFI System Classes 02]
+<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
+
+
+@snap[north-west span-45 ]
+@css[text-yellow](<br>&nbsp; <br>&nbsp;)
+@box[bg-grey-35 text-white    ](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](<b>UEFI Class 3</b>)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full Benefits</span><span style="font-size:0.6em" ><br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;UEFI Innovation<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;Smaller code size / Validation<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;Extensiblitiy<br><br><br><br><br>&nbsp;</span></p>)
 @snapend
 
+@snap[north-east span-45 ]
+@css[text-yellow](<br>&nbsp; <br>&nbsp;)
+@box[bg-royal text-white   ](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>UEFI Class 3</b></span><span style="font-size:0.6em" ><br>&nbsp;&nbsp;&nbsp;&nbsp;Boots <b>Only</b> UEFI<br>&nbsp;&nbsp;&nbsp;&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;&nbsp;&nbsp;&nbsp;Only runtime UEFI intefaces<br><br><br><br>&nbsp;</span></p>)
+@snapend
+
+ 
  
 ---?image=/assets/images/slides/Slide18.JPG
 <!-- .slide: data-transition="none" -->
