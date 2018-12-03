@@ -169,23 +169,23 @@ Note:
 <p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
 
 @snap[north-west span-45 fragment]
-@css[text-yellow](<br><br>&nbsp; <br>&nbsp;)
+@css[text-yellow](<br>&nbsp; <br>&nbsp;)
 @box[bg-brick text-white    ](<b>UEFI Class 0</b><p align="left" style="line-height:50%"><span style="font-size:0.5em" >&nbsp;Boots Legacy - int 19 ONLY<br>&nbsp;Legacy BIOS &lpar;16 bit&rpar;<br>&nbsp;No UEFI Interfaces&nbsp;</span></p>)
 @snapend
 
 @snap[north-east span-45 fragment]
-@css[text-yellow](<br><br>&nbsp; <br>&nbsp;)
-@box[bg-green-pp text-white  ](<b>UEFI Class 1</b><p align="left" style="line-height:50%"><span style="font-size:0.5em" >&nbsp;Boots Legacy - int 19 ONLY<br>&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;Only legacy BIOS <b>runtime</b> inteface&nbsp;</span></p>&nbsp;)
+@css[text-yellow](<br>&nbsp; <br>&nbsp;)
+@box[bg-green-pp text-white  ](<b>UEFI Class 1</b><p align="left" style="line-height:50%"><span style="font-size:0.5em" >&nbsp;Boots Legacy - int 19 ONLY<br>&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;Only legacy BIOS <b>runtime</b> inteface&nbsp;</span></p>)
 @snapend
 
 @snap[south-west span-45 fragment]
-@box[bg-purple-pp text-white   ](<b>UEFI Class 2</b><p align="left" style="line-height:50%"><span style="font-size:0.5em" >&nbsp;Boots Legacy - int 19 or UEFI<br>&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;legacy BIOS runtime inteface w/ <b>CSM</b>&nbsp;</span></p>&nbsp;)
-@css[text-yellow]( <br>&nbsp;)
+@box[bg-purple-pp text-white   ](<b>UEFI Class 2</b><p align="left" style="line-height:50%"><span style="font-size:0.5em" >&nbsp;Boots Legacy - int 19 or UEFI<br>&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;legacy BIOS runtime inteface w/ <b>CSM</b>&nbsp;</span></p>)
+@css[text-yellow]( &nbsp;)
 @snapend
 
 @snap[south-east span-45 fragment]
-@box[bg-grey-50 text-black](<b>Limited Benefits</b><p align="left" style="line-height:50%"><span style="font-size:0.5em" >&nbsp;&check;&nbsp;&nbsp;OEMs/ODMs Internal <br>&nbsp;&check;&nbsp;&nbsp;Double code development <br>&nbsp;&check;&nbsp;&nbsp;Coompromised security - MBR exposure&nbsp;</span></p>&nbsp;)
-@css[text-yellow]( <br>&nbsp;)
+@box[bg-grey-50 text-black](<b>Limited Benefits</b><p align="left" style="line-height:50%"><span style="font-size:0.5em" >&nbsp;&check;&nbsp;&nbsp;OEMs/ODMs Internal <br>&nbsp;&check;&nbsp;&nbsp;Double code development <br>&nbsp;&check;&nbsp;&nbsp;Coompromised security - MBR exposure&nbsp;</span></p>)
+@css[text-yellow]( &nbsp;)
 @snapend
 
  
