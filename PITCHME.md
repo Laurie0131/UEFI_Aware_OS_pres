@@ -190,7 +190,7 @@ Note:
 @snapend
 
 
-+++?image=/assets/images/slides/Slide19.JPG
++++
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI System Classes 02]
