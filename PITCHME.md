@@ -166,6 +166,7 @@ Note:
 
 ---
 @title[UEFI System Classes ]
+<!-- .slide: data-transition="none" -->
 <p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
 
 @snap[north-west span-45 fragment]
@@ -185,6 +186,39 @@ Note:
 
 @snap[south-east span-45 fragment]
 @box[bg-grey-50 text-black](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;<b>Limited Benefits</b></span><span style="font-size:0.6em" ><br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;OEMs/ODMs Internal <br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;Double code development <br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;Coompromised security <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - MBR exposure&nbsp;</span></p>)
+@css[text-yellow]( &nbsp;)
+@snapend
+
+
++++?image=/assets/images/slides/Slide19.JPG
+<!-- .slide: data-background-transition="none" -->
+<!-- .slide: data-transition="none" -->
+@title[UEFI System Classes 02]
+<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
+
+
+@snap[north-west span-45 ]
+@css[text-yellow](<br>&nbsp; <br>&nbsp;)
+@box[bg-brick text-white    ](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>UEFI Class 0</b></span><span style="font-size:0.6em" ><br>&nbsp;&nbsp;&nbsp;&nbsp;Boots Legacy - int 19 ONLY<br>&nbsp;&nbsp;&nbsp;&nbsp;Legacy BIOS &lpar;16 bit&rpar;<br>&nbsp;&nbsp;&nbsp;&nbsp;No UEFI Interfaces<br>&nbsp;</span></p>)
+@snapend
+
+@snap[north-east span-45 ]
+@css[text-yellow](<br>&nbsp; <br>&nbsp;)
+@box[bg-green-pp text-white  ](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>UEFI Class 1</b></span><span style="font-size:0.6em" ><br>&nbsp;&nbsp;&nbsp;&nbsp;Boots Legacy - int 19 ONLY<br>&nbsp;&nbsp;&nbsp;&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;&nbsp;&nbsp;&nbsp;Only legacy BIOS <b>runtime</b> inteface<br>&nbsp;</span></p>)
+@snapend
+
+@snap[south-west span-45 ]
+@box[bg-purple-pp text-white   ](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>UEFI Class 2</b></span><span style="font-size:0.6em" ><br>&nbsp;&nbsp;&nbsp;&nbsp;Boots Legacy - int 19 or UEFI<br>&nbsp;&nbsp;&nbsp;&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;&nbsp;&nbsp;&nbsp;legacy BIOS runtime inteface w/ <b>CSM</b><br>&nbsp;</span></p>)
+@css[text-yellow]( &nbsp;)
+@snapend
+
+@snap[south-east span-45]
+@box[bg-grey-50 text-black](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;<b>Limited Benefits</b></span><span style="font-size:0.6em" ><br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;OEMs/ODMs Internal <br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;Double code development <br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;Coompromised security <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - MBR exposure&nbsp;</span></p>)
+@css[text-yellow]( &nbsp;)
+@snapend
+
+@snap[south-east span-45 fragment]
+@box[bg-roayl text-white   ](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>UEFI Class 3</b></span><span style="font-size:0.6em" ><br>&nbsp;&nbsp;&nbsp;&nbsp;Boots <b>Only</b> UEFI<br>&nbsp;&nbsp;&nbsp;&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;&nbsp;&nbsp;&nbsp;Only runtime UEFI intefaces<br>&nbsp;</span></p>)
 @css[text-yellow]( &nbsp;)
 @snapend
 
