@@ -790,6 +790,7 @@ Note:
 <br>
 <br>
 @box[bg-white text-black  rounded ](<span style="font-size:01.2em" ><b>DB</b></span>)
+<br>
 @box[bg-black text-white  rounded ](<span style="font-size:01.2em" ><b>DBX</b></span>)
 @snapend
 
@@ -805,11 +806,13 @@ Note:
 <br>
 <br>
 @box[bg-navy text-white  rounded ](<span style="font-size:01.2em" ><b>`SetupMode`</b></span>)
+<br>
 @box[bg-red-pp text-white  rounded ](<span style="font-size:01.2em" ><b>`SecureBoot`</b></span>)
 @snapend
 
 
 @snap[south span-100 fragment]
+<BR>
 ![SecureBoot](/assets/images/SecureBoot_shell.png)
 @snapend
 
