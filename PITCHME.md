@@ -817,7 +817,7 @@ Note:
 <br>
 <br>
 <br>
-@box[bg-navy text-white  rounded ](<span style="font-size:01.8em" ><b>`SetupMode`</b></span>)
+@box[bg-navy text-white  rounded ](<span style="font-size:01.2em" ><b>`SetupMode`</b></span>)
 @snapend
 
 @snap[north-east span-40]
@@ -831,7 +831,7 @@ Note:
 <br>
 <br>
 <br>
-@box[bg-pink text-white  rounded ](<span style="font-size:01.8em" ><b>`SecureBoot`</b></span>)
+@box[bg-red-pp text-white  rounded ](<span style="font-size:01.2em" ><b>`SecureBoot`</b></span>)
 @snapend
 
 
