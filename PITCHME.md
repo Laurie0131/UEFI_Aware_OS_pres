@@ -248,12 +248,13 @@ Note:
 <br>
 <br>
 <br>
-<span style="font-size:02.25em" >@color[#ff00ff](<b>+</b>)&nbsp;&nbsp;</span>
+<span style="font-size:02.25em" >@color[#ff00ff](<b>+</b>)&nbsp;</span>
 <br>
 <br>
 <br>
 <br>
-<p align="left" style="line-height:60%"><span style="font-size:02.25em" >@color[#ff00ff](&#10132;)</span><span style="font-size:0.6em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[white](<b>UEFI Secure Boot "ON"</b> UEFI)<br></span> </p>
+<br>
+<p align="left" style="line-height:60%"><span style="font-size:02.25em" >@color[#ff00ff](&#10132;)</span><span style="font-size:0.8em" >&nbsp;&nbsp;&nbsp;@color[white](<b>UEFI Secure Boot "ON"</b> UEFI)<br></span> </p>
 @snapend
 
 
