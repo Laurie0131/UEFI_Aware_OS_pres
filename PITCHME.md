@@ -771,9 +771,7 @@ Note:
 @snapend
 
 
-@snap[north-west span-40]
-<br>
-<br>
+@snap[north-west span-35]
 <br>
 <br>
 <br>
@@ -791,8 +789,7 @@ Note:
 <br>
 <br>
 <br>
-<br>
-@box[bg-white text-black  rounded ](<span style="font-size:01.5em" ><b>DB</b></span>)
+@box[bg-white text-black  rounded ](<span style="font-size:01.2em" ><b>DB</b></span>)
 @snapend
 
 @snap[north-west span-40]
@@ -807,7 +804,7 @@ Note:
 <br>
 <br>
 <br>
-@box[bg-black text-white  rounded ](<span style="font-size:01.5em" ><b>DBX</b></span>)
+@box[bg-black text-white  rounded ](<span style="font-size:01.2em" ><b>DBX</b></span>)
 @snapend
 
 
@@ -820,7 +817,7 @@ Note:
 <br>
 <br>
 <br>
-@box[bg-navy text-white  rounded ](<span style="font-size:0.8em" ><b>`SetupMode`</b></span>)
+@box[bg-navy text-white  rounded ](<span style="font-size:01.8em" ><b>`SetupMode`</b></span>)
 @snapend
 
 @snap[north-east span-40]
@@ -834,7 +831,7 @@ Note:
 <br>
 <br>
 <br>
-@box[bg-pink text-white  rounded ](<span style="font-size:0.8em" ><b>`SecureBoot`</b></span>)
+@box[bg-pink text-white  rounded ](<span style="font-size:01.8em" ><b>`SecureBoot`</b></span>)
 @snapend
 
 
