@@ -184,7 +184,7 @@ Note:
 @css[text-yellow]( &nbsp;)
 @snapend
 
-@snap[south-east span-45 fragment]
+@snap[south-east span-50 fragment]
 @box[bg-grey-50 text-black](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;<b>Limited Benefits</b></span><span style="font-size:0.6em" ><br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;OEMs/ODMs Internal <br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;Double code development <br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;Coompromised security <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - MBR exposure&nbsp;</span></p>)
 @css[text-yellow]( &nbsp;)
 @snapend
@@ -227,7 +227,7 @@ Note:
 
 @snap[north-west span-45 ]
 @css[text-yellow](<br>&nbsp; <br>&nbsp;)
-@box[bg-grey-50 text-white    ](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](<b>Full Benefits</b>)</span><span style="font-size:0.6em" ><br><br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;UEFI Innovation<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;Smaller code size / Validation<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;Extensiblitiy<br><br><br><br><br><br>&nbsp;</span></p>)
+@box[bg-grey-50 text-white    ](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](<b>Full Benefits</b>)</span><span style="font-size:0.6em" ><br><br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;UEFI Innovation<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;Smaller code size / Validation<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;Extensiblitiy<br><br><br><br><br><br><br><br>&nbsp;</span></p>)
 @snapend
 
 @snap[north-east span-45 ]
