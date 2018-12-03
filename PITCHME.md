@@ -237,13 +237,6 @@ Note:
 
 
 
-
-@snap[north-east span-45 fragment]
-@css[text-yellow](<br>&nbsp; <br>&nbsp;)
-@box[bg-royal text-white   ](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>UEFI Class 3 @color[yellow](+)</b></span><span style="font-size:0.6em" ><br><br>&nbsp;&nbsp;&nbsp;&nbsp;Boots <b>Only</b> UEFI<br>&nbsp;&nbsp;&nbsp;&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;&nbsp;&nbsp;&nbsp;Only runtime UEFI intefaces<br><br><br><br><br><br><b>UEFI Secure Boot "ON"</b><br>&nbsp;</span></p>)
-@snapend
-
-
 @snap[south-west span-45 fragment]
 <p align="left" style="line-height:60%">&nbsp;&nbsp;@color[yellow](<b>Only Class after 2020</b>)<span style="font-size:0.6em" ><br>&nbsp;&nbsp;&nbsp;&nbsp;Enabling <b>Secure Boot</b> creates another class&nbsp;</span></p>
 <br><br>&nbsp;
@@ -252,9 +245,17 @@ Note:
 
 @snap[south-east span-45 fragment]
 <br>
-<span style="font-size:03.25em" >@color[#ff00ff](&#10132;)</span>
+<p align="left" ><span style="font-size:03.25em" >@color[#ff00ff](&#10132;)</span></p>
 <br><br>&nbsp;
 @snapend
+
+@snap[north-east span-45 fragment]
+@css[text-yellow](<br>&nbsp; <br>&nbsp;)
+@box[bg-royal text-white   ](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>UEFI Class 3 @color[yellow](+)</b></span><span style="font-size:0.6em" ><br><br>&nbsp;&nbsp;&nbsp;&nbsp;Boots <b>Only</b> UEFI<br>&nbsp;&nbsp;&nbsp;&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;&nbsp;&nbsp;&nbsp;Only runtime UEFI intefaces<br><br><br><b>UEFI Secure Boot "ON"</b><br><br><br><br>&nbsp;</span></p>)
+@snapend
+
+
+
  
  
 ---?image=/assets/images/slides/Slide18.JPG
