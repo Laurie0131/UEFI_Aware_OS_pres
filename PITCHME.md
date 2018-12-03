@@ -834,6 +834,9 @@ Note:
 @box[bg-red-pp text-white  rounded ](<span style="font-size:01.2em" ><b>`SecureBoot`</b></span>)
 @snapend
 
+@snap[south span-90 fragment]
+![SecureBoot](/assets/images/SecureBoot_shell.png)
+@snapend
 
 ---?image=/assets/images/slides/Slide48.JPG
 @title[Authenticated Variables]
