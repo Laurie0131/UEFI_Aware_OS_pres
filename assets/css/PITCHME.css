@@ -322,7 +322,7 @@ table#recTable{width:100%; border:1px solid gray;}
 #recTable tr td {height:0.2px; border:1px solid gray;}
 
 
-
+/* the following are for Back ground colors for using the boxes widget from gitpitch */
 
 .bg-cyan {   background: #00FFFF !important; }
 
@@ -349,9 +349,10 @@ table#recTable{width:100%; border:1px solid gray;}
 .bg-royal { background: #0558ff !important; }
 .bg-navy { background: #002060 !important; }
 
-
-.bg-green-pp { background: #92d050 !important; }35
-
+/* Green gp #8eA3b3
+*/
+.bg-green-pp { background: #92d050 !important; }
+.bg-green2   { background: #00b050 !important; }
 
 .bg-white { background: #ffffff!important; }
 
