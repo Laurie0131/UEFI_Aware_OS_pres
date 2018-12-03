@@ -257,49 +257,6 @@ Note:
 @snapend
 
 
----
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[UEFI System Classes 02]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
-
-
-@snap[north-west span-45 ]
-@css[text-yellow](<br>&nbsp; <br>&nbsp;)
-@box[bg-grey-50 text-white    ](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](<b>Full Benefits</b>)</span><span style="font-size:0.6em" ><br><br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;UEFI Innovation<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;Smaller code size / Validation<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>&check;</b>&nbsp;&nbsp;Extensiblitiy<br><br><br><br><br><br><br><br>&nbsp;</span></p>)
-@snapend
-
-@snap[north-east span-45 ]
-@css[text-yellow](<br>&nbsp; <br>&nbsp;)
-@box[bg-royal text-white   ](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>UEFI Class 3</b></span><span style="font-size:0.6em" ><br><br>&nbsp;&nbsp;&nbsp;&nbsp;Boots <b>Only</b> UEFI<br>&nbsp;&nbsp;&nbsp;&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;&nbsp;&nbsp;&nbsp;Only runtime UEFI intefaces<br><br><br><br><br><br><br><br>&nbsp;</span></p>)
-@snapend
-
-
-
-@snap[south-west span-45 fragment]
-<p align="left" style="line-height:60%">&nbsp;&nbsp;@color[yellow](<b>Only Class after 2020</b>)<span style="font-size:0.6em" ><br>&nbsp;&nbsp;&nbsp;&nbsp;Enabling <b>Secure Boot</b> creates another class&nbsp;</span></p>
-<br><br>&nbsp;
-@snapend
-
-
-@snap[south-east span-45 fragment]
-<br>
-<p align="left" ><span style="font-size:03.25em" >@color[#ff00ff](&#10132;)</span></p>
-<br><br>&nbsp;
-@snapend
-
-@snap[north-east span-45 fragment]
-@css[text-yellow](<br>&nbsp; <br>&nbsp;)
-@box[bg-royal text-white   ](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>UEFI Class 3 @color[yellow](+)</b></span><span style="font-size:0.6em" ><br><br>&nbsp;&nbsp;&nbsp;&nbsp;Boots <b>Only</b> UEFI<br>&nbsp;&nbsp;&nbsp;&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;&nbsp;&nbsp;&nbsp;Only runtime UEFI intefaces<br><br><br><b>UEFI Secure Boot "ON"</b><br><br><br><br>&nbsp;</span></p>)
-@snapend
-
- 
- 
----?image=/assets/images/slides/Slide18.JPG
-<!-- .slide: data-transition="none" -->
-@title[UEFI System Classes ]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
-
 Note:
 Make sure the “class” terminology is understood here before moving on
 
@@ -315,78 +272,6 @@ Make sure the “class” terminology is understood here before moving on
 - Performance
 - Extensibility
 
-
-
-
-+++?image=/assets/images/slides/Slide19.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[UEFI System Classes 02]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
-
-
-Note:
-
-
-+++?image=/assets/images/slides/Slide20.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[UEFI System Classes 03]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
-
-
-Note:
-
-+++?image=/assets/images/slides/Slide21.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[UEFI System Classes 04]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
-
-
-Note:
-
-
-+++?image=/assets/images/slides/Slide23.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[UEFI System Classes 05]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
-
-
-Note:
-
-
-+++?image=/assets/images/slides/Slide24.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[UEFI System Classes 06]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
-
-
-Note:
-
-+++?image=/assets/images/slides/Slide25.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[UEFI System Classes 07]
-<p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
-
-
-Note:
-Make sure the “class” terminology is understood here before moving on
-
-### Classes 0-2:
-- Limited Benefits
-- OEMs/ODMs Internal
-- Development Optimization
-  -  & Code Organization
-
-### Class 3+
-- Full Benefits
-- UEFI Innovation
-- Performance
-- Extensibility
 
 ---
 @title[Required UEFI Drivers: OS Install & Boot]
@@ -395,16 +280,16 @@ Make sure the “class” terminology is understood here before moving on
 
 @snap[north-west span-45 fragment]
 @css[text-yellow]( <br>&nbsp;)
-@box[bg-blue text-white  rounded  ](<span style="font-size:01.52em" ><b>Boot device<b></span><br>&nbsp;)
+@box[bg-royal text-white  rounded  ](<span style="font-size:01.52em" ><b>Boot device<b></span><br>&nbsp;)
 @snapend
 
 @snap[north-east span-45 fragment]
 @css[text-yellow](<br><br>&nbsp; <br>&nbsp;<br>&nbsp;)
-@box[bg-pink text-white rounded ](<span style="font-size:01.52em" ><b>Console Output</b></span><br>&nbsp;)
+@box[bg-green-pp text-white rounded ](<span style="font-size:01.52em" ><b>Console Output</b></span><br>&nbsp;)
 @snapend
 
 @snap[south-west span-45 fragment]
-@box[bg-yellow text-blue  rounded ](<span style="font-size:01.52em" ><b>Console Input</b></span><br>&nbsp;)
+@box[bg-brick text-white  rounded ](<span style="font-size:01.52em" ><b>Console Input</b></span><br>&nbsp;)
 @css[text-yellow]( <br>&nbsp;<br>&nbsp;<br>&nbsp;)
 @snapend
 
