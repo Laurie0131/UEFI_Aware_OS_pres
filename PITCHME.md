@@ -132,7 +132,7 @@ Boot to OS with UEFI Services available
 @snapend
 
 @snap[south-west span-35 fragment]
-@box[bg-yellow text-blue  waved ](<b>Disk Partition/formats</b><br>&nbsp)
+@box[bg-yellow text-blue  waved ](<b>Disk Partition/formats</b><br>&nbsp;)
 @css[text-yellow]( <br>&nbsp;)
 @snapend
 
@@ -142,7 +142,7 @@ Boot to OS with UEFI Services available
 @snapend
 
 @snap[south-east span-35 fragment]
-@box[bg-purple-pp text-white waved ](<b>Set Boot Path to Boot UEFI OS</b><br><br>&nbsp)
+@box[bg-purple-pp text-white waved ](<b>Set Boot Path to Boot UEFI OS</b><br>&nbsp;)
 @css[text-yellow]( <br>&nbsp;)
 @snapend
 
