@@ -760,89 +760,6 @@ Note:
 @snap[north-west span-45]
 <br>
 <br>
-@box[bg-grey-35 text-white  rounded ](<span style="font-size:01.2em" ><b>&nbsp;</b></span><br> <br><br><br><br><br><br><br><br><br><br> )
-@snapend
-
-
-@snap[north-west span-30 fragment]
-<br>
-<br>
-@box[bg-royal text-white  rounded ](<span style="font-size:01.2em" ><b>PK</b></span>)
-<br>
-@box[bg-gold2 text-white  rounded ](<span style="font-size:01.2em" ><b>KEK</b></span>)
-@snapend
-
-
-
-
-@snap[north-west span-40 fragment]
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-@box[bg-white text-black  rounded ](<span style="font-size:01.2em" ><b>DB</b></span>)
-<br>
-@box[bg-black text-white  rounded ](<span style="font-size:01.2em" ><b>DBX</b></span>)
-@snapend
-
-
-
-
-@snap[north-east span-40 fragment]
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-@box[bg-navy text-white  rounded ](<span style="font-size:01.2em" ><b>`SetupMode`</b></span>)
-<br>
-@box[bg-red-pp text-white  rounded ](<span style="font-size:01.2em" ><b>`SecureBoot`</b></span>)
-@snapend
-
-
-@snap[south span-100 fragment]
-<BR><br>
-![SecureBoot](/assets/images/SecureBoot_shell.png)
-@snapend
-
-Note:
-
-### PK
-OEM and Platform FW-  format is RSA-2048
-Key Exchange Key
-#### KEK
-Platform FW and OS - format is RSA-2048
-Authorized Signature DB
-#### DB
-Authorized Signing certificates - white list
-Forbidden Signature DB
-#### DBX
-Unauthorized Signing certificates - Black list
-
-#### Setup Mode
-#### SetupMode
-- NULL  
-- Secure Boot not supported 
-- PK is enrolled 
-- in user mode     - User mode requires authentication 
-– Platform is in Setup mode – no PK enrolled
-
-
-- Shell Dmpstore command show the variable "SecureBoot"
-
----
-@title[Authenticated Variables]
-### <p align="right"><span class="gold" >Authenticated Variables</span></p>
-
-@snap[north-west span-45]
-<br>
-<br>
 @box[bg-grey-35 text-white  rounded ](<span style="font-size:01.2em" ><b>&nbsp;</b></span> <br><br><br><br><br><br><br><br><br><br> )
 @snapend
 
@@ -892,8 +809,7 @@ Unauthorized Signing certificates - Black list
 
 
 
-@snap[north-east span-40]
-<br>
+@snap[north-east span-40 fragment]
 <br>
 <br>
 <br>
@@ -901,21 +817,10 @@ Unauthorized Signing certificates - Black list
 <br>
 <br>
 @box[bg-navy text-white  rounded ](<span style="font-size:01.2em" ><b>`SetupMode`</b></span>)
-@snapend
-
-@snap[north-east span-40]
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <br>
 @box[bg-red-pp text-white  rounded ](<span style="font-size:01.2em" ><b>`SecureBoot`</b></span>)
 @snapend
+
 
 @snap[south span-100 fragment]
 ![SecureBoot](/assets/images/SecureBoot_shell.png)
