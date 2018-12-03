@@ -165,6 +165,7 @@ Note:
 
 
 ---
+<!-- .slide: data-transition="none" -->
 @title[UEFI System Classes ]
 <p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
 
@@ -190,6 +191,8 @@ Note:
 
 
 +++
+<!-- .slide: data-background-transition="none" -->
+<!-- .slide: data-transition="none" -->
 @title[UEFI System Classes 02]
 <p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
 
@@ -216,6 +219,8 @@ Note:
 @snapend
 
 +++
+<!-- .slide: data-background-transition="none" -->
+<!-- .slide: data-transition="none" -->
 @title[UEFI System Classes 02]
 <p align="right"><span style="font-size:01.2em" ><font color="#e49436"><b>UEFI System Classes&nbsp;&nbsp;</b></span><span style="font-size:0.6em" ><font color="#FFC000">(based on firmware interfaces)<font></span></p>
 
@@ -235,7 +240,7 @@ Note:
 
 @snap[north-east span-45 fragment]
 @css[text-yellow](<br>&nbsp; <br>&nbsp;)
-@box[bg-royal text-white   ](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>UEFI Class 3 @color[yellow](+)</b></span><span style="font-size:0.6em" ><br><br>&nbsp;&nbsp;&nbsp;&nbsp;Boots <b>Only</b> UEFI<br>&nbsp;&nbsp;&nbsp;&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;&nbsp;&nbsp;&nbsp;Only runtime UEFI intefaces<br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@box[bg-royal text-white   ](<p align="left" style="line-height:60%"><span style="font-size:01.25em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>UEFI Class 3 @color[yellow](+)</b></span><span style="font-size:0.6em" ><br><br>&nbsp;&nbsp;&nbsp;&nbsp;Boots <b>Only</b> UEFI<br>&nbsp;&nbsp;&nbsp;&nbsp;Uses UEFI / PI Interfaces <br>&nbsp;&nbsp;&nbsp;&nbsp;Only runtime UEFI intefaces<br><br><br><br><br><br><b>UEFI Secure Boot "ON"</b><br>&nbsp;</span></p>)
 @snapend
 
 
@@ -247,7 +252,7 @@ Note:
 
 @snap[south-east span-45 fragment]
 <br>
-<span style="font-size:01.25em" >@color[#ff00ff](&#8681;)</span>&nbsp;&nbsp;&nbsp;&nbsp;@color[white](<b>UEFI Secure Boot "ON"</b>)&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="font-size:03.25em" >@color[#ff00ff](&#10132;)</span>
 <br><br>&nbsp;
 @snapend
  
