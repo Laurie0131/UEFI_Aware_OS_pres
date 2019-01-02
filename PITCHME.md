@@ -397,7 +397,7 @@ Os loader needs to be here
 
 ---?image=/assets/images/slides/Slide35_1.JPG
 @title[Runtime Services Table ]
-<p align="right"><span class="gold" ><b>Runtime Services Available to the UEFI Aware OS</b></span></p>
+<p style="line-height:80%" align="right"><span class="gold" ><b>Runtime Services Available to the<br>UEFI Aware OS</b></span></p>
 
 
 Note:
@@ -1091,7 +1091,7 @@ Note:
   
 ---?image=/assets/images/slides/Slide68_1.JPG
 @title[Why MMI Vulnerabilities )]
-<p align="right"><span class="gold" ><b>Why are Software MMI Vulnerabilities Dangerous?</b></span></p>
+<p style="line-height:80%" align="right"><span class="gold" ><b>Why are Software MMI Vulnerabilities<br>Dangerous?</b></span></p>
 @snap[north-west span-60 fragment ]
 <br>
 <br>
