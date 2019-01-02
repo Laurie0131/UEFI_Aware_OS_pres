@@ -312,9 +312,10 @@ Note:
 #### <p align="right"><span class="gold" >UEFI OS Loader</span></p>
 
 @snap[north-west span-100 fragment]
-@css[text-yellow]( <br>&nbsp;<br>)
+<br>
+<br>
 @fa[circle gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;OS install process includes UEFI loader<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:0.7em"><font  color="#FFFF00">`/efi/boot/bootx64.efi`  `/efi/redhat/grub.efi`</font></span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:0.7em"><font  color="#FFFF00">`/efi/boot/bootx64.efi`&nbsp;&nbsp;  `/efi/redhat/grub.efi`</font></span><br>
 @fa[circle gp-bullet-gold]<span style="font-size:0.9em">&nbsp;&nbsp;Call UEFI boot & runtime services to start OS</span> <br>
 @fa[circle gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Exit UEFI Boot Services</span><br>
 @fa[circle gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Transfer control to native OS</span><br>
