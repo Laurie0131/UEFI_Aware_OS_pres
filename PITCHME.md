@@ -1091,7 +1091,7 @@ Note:
   
 ---?image=/assets/images/slides/Slide68_1.JPG
 @title[Why MMI Vulnerabilities )]
-<p style="line-height:80%" align="right"><span class="gold" ><b>Why are Software MMI Vulnerabilities<br>Dangerous?</b></span></p>
+<p style="line-height:85%" align="right"><span class="gold" ><b>Why are Software MMI Vulnerabilities</b><br></span><span style="font-size:01.25em" ><b>Dangerous?</b></span></p>
 @snap[north-west span-60 fragment ]
 <br>
 <br>
