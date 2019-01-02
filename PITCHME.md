@@ -1097,7 +1097,7 @@ Note:
 <br>
 <span style="font-size:01.25em" ><b><i>@color[yellow](Because . . .)</i></b></span><br>
 <span style="font-size:0.9em" >Software MMIs can be asked to perform: </span>
-<ul style="line-height:0.7;">
+<ul style="line-height:0.8;">
 <li><span style="font-size:0.8em" >Privileged operations: </span><span style="font-size:0.6em" ><font color="#87E2A9">Flash BIOS, flash EC, write to MMIO, write to MMRAM, etc. </font></span></li>
 <li><span style="font-size:0.8em" >Overwrite OS code/data </span></li>
 <li><span style="font-size:0.8em" >Copy protected OS data to another unprotected location </span></li>
