@@ -51,7 +51,7 @@ Note:
  @fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Explain How the OS and UEFI Work together </span><br>
  @fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Explain the UEFI Requirements for UEFI aware OS</span><br>
  @fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;Explain How Secure Boot Fits with UEFI</span> <br>
- @fa[certificate gp-bullet-ltgreen]<span style="font-size:0.9em">&nbsp;&nbsp;What about coreboot?</span> 
+ @fa[certificate gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;What about coreboot?</span> 
 
 
 ---?image=assets/images/binary-strings-black2.jpg
@@ -989,7 +989,7 @@ Note:
  @fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Explain How the OS and UEFI Work together </span><br>
  @fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Explain the UEFI Requirements for UEFI aware OS</span><br>
  @fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;Explain How Secure Boot Fits with UEFI</span> <br>
- @fa[certificate gp-bullet-ltgreen]<span style="font-size:0.9em">&nbsp;&nbsp;What about coreboot?</span> 
+ @fa[certificate gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;What about coreboot?</span> 
 
  
 
